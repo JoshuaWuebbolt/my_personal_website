@@ -1,8 +1,0 @@
-.backgroundImage {
-    content: " ";
-    position: fixed;
-    text-align: center;
-    width: "100%";
-    height: "400px";
-    background-image: url("main_background.png");
-}
