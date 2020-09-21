@@ -40,6 +40,7 @@
     font-size: calc(3em + 0.2vw);
     margin-right: 10vw;
     margin-top: 0;
+    padding-left: 0;
     box-decoration-break: slice;
     box-decoration-break: clone;
 }

@@ -8,16 +8,14 @@
   font-size: calc(1em + 0.2vw);
 }
 
-.hero-image {
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-image: url("hero_image.png");
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    max-height: 100vh;
-    position: fixed;
-    z-index: -1;
+img {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+p {
+    flex: 1 1 0px;
+    justify-content: left;
+    text-align: left;
+    padding: 15px;
 }

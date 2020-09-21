@@ -4,6 +4,7 @@ import "../styles/About.css";
 const About = props => (
     <div className="about-section">
         <h1>About Me</h1>
+        <span>This is real, this is me, I'm exa-</span>
         <div className="about-info">
             <div className="image-area">            
                 <img src="placeholder-image.png" alt="yeet" />
@@ -29,7 +30,6 @@ const About = props => (
                 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
                     <img src="email.png" alt="follow me" />
                 </a>
-                
             </div>
         
         

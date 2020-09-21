@@ -4,6 +4,9 @@ import '../styles/App.css';
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import About from "./About";
+import Coding from "./Coding";
+import Music from "./Music";
+import Other from "./Other";
 
 function App() {
   return (
@@ -11,8 +14,9 @@ function App() {
       <Navbar/>
       <Hero/>
       <About/>
-      <h1> Code</h1>
-      <h1>Code</h1>
+      <Coding/>
+      <Music/>
+      <Other/>
     </div>
   );
 }
