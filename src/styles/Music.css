@@ -1,0 +1,47 @@
+.music-section {
+    display: flex-column;
+    background-color: white;
+    max-width: 100vw;
+}
+
+.music-section h1 {
+    padding-left: 1rem;
+    margin-bottom: 0;
+}
+.music-section span {
+    margin-left: 1rem;
+}
+
+.music-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.contact-info {
+    display: flex-column;
+    justify-content: space-between;
+}
+
+.contact-info img {
+    border-radius: 0;
+    max-width: 3rem;
+    max-height: 3rem;
+    margin: 0.5rem;
+    padding-left: 5vw;
+}
+
+.music-section p {
+    border-right: 1px solid black;
+}
+
+.image-area {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.image-area img {
+    width: 20rem;
+    height: 20rem;
+}

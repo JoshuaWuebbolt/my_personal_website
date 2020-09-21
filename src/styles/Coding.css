@@ -1,0 +1,31 @@
+.coding-area {
+    background-color: white;
+    display: flex-column;
+}
+
+.coding-area h1 {
+     margin-bottom: 0;
+     margin-left: 1rem;
+ }
+
+.coding-area span {
+    margin-left: 18px;
+}
+
+.coding1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coding1 img { 
+    /* TODO: Figure out how to vertically center image */
+    max-width: 7rem;
+    max-height: 7rem;
+    margin: 1rem;
+    padding-left: 1vw;
+}
+
+.coding1 p {
+    border-left: 1px solid black;
+}
