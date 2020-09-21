@@ -6,6 +6,7 @@ import Hero from "./Hero";
 import About from "./About";
 import Coding from "./Coding";
 import Music from "./Music";
+import Videos from "./Videos";
 import Other from "./Other";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <About/>
       <Coding/>
       <Music/>
+      <Videos/>
       <Other/>
     </div>
   );
