@@ -1,24 +1,16 @@
 import React from 'react';
-import '../styles/App.css';
-
-import Navbar from "./Navbar";
-import Hero from "./Hero";
-import About from "./About";
-import Coding from "./Coding";
-import Music from "./Music";
-import Videos from "./Videos";
-import Other from "./Other";
+import {Switch, Route} from "react-router-dom";
+import MainPage from "./MainPage"
+import Blog from "./Blog"
 
 function App() {
   return (
     <div className="app">
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Coding/>
-      <Music/>
-      <Videos/>
-      <Other/>
+      <Switch>
+        <Route path="/" component={MainPage} exact/>
+        <Route path="/blog" component = {Blog} exact/>
+
+      </Switch>
     </div>
   );
 }
