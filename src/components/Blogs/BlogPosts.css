@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+.blog-area {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-family: 'Montserrat', sans-serif;
+    display: flex-column;
+    align-items: center;
+}
+
+.italics {
+    font-style: italic;
+}
+.blog-area img {
+    border-radius: 0;
+    border: 1px solid black;
+    max-width: 60vw;
+}
