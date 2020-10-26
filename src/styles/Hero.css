@@ -20,7 +20,7 @@
 .hero-box {
     display: flex;
     flex-direction: column;
-    min-height: calc(100vh - calc(100vh - 100%));
+    min-height: 800px;
     min-width: 95vw;
     text-align: left;
     justify-content: center;
@@ -44,6 +44,7 @@
     .hero-box h1 {
         font-size: calc(1em + 2.3vw);
         margin-right: 5vw;
+        
     }
 }
 .text-line {
