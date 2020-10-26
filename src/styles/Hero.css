@@ -8,6 +8,7 @@
     left: 0;
     bottom: 0;
     background-image: url("hero_image.png");
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
