@@ -19,7 +19,7 @@
 }
 @supports (-webkit-overflow-scrolling: touch) {
     .hero-image {
-        max-height: 90vh;
+        max-height: 85vh;
     }
 }
 .hero-box {
