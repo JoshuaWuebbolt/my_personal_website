@@ -4,6 +4,7 @@ import "../styles/Hero.css"
 
 const Hero = props => (
     <div className="hero-area">
+
         <div className="hero-image"/>
         <div className="hero-box">
             <div className="text-line">
