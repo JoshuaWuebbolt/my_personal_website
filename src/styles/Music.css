@@ -1,78 +1,75 @@
 .music-section {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  max-width: 100vw;
 }
 
 .music-section h1 {
-    padding-left: 1rem;
-    margin-bottom: 0;
+  padding-left: 1rem;
+  margin-bottom: 0;
 }
 .music-section span {
-    margin-left: 1rem;
-
+  margin-left: 1rem;
 }
 @media screen and (min-width: 850px) {
-    .music-info {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding-top: 1rem;
-    }
-    .music-image-area img {
-        border-radius: 50%;
-        width: 20rem;
-        height: 20rem;
-    }
-    .music-section p {
-        margin: 1rem;
-        border-left: 1px solid black
-    }
-    .music-contact-info {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-between;
-    }
-    .music-contact-info img {
-        max-width: 3rem;
-        max-height: 3rem;
-        margin-left: 2rem;
-    }
+  .music-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+  }
+  .music-image-area img {
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+  }
+  .music-section p {
+    margin: 1rem;
+    border-left: 1px solid black;
+  }
+  .music-contact-info {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  .music-contact-info img {
+    max-width: 3rem;
+    max-height: 3rem;
+    margin-left: 2rem;
+  }
 }
 @media screen and (max-width: 850px) {
-    .music-info{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-    .music-image-area img {
-        border-radius: 50%;
-        max-width: 75vw;
-        max-height: 75vw;
-        padding: 1rem;
-        padding-bottom: 0;;
-    }
-    .music-image-area {
-        border-bottom: x solid black;
-        padding: 0.5rem;
-    }
-    .music-section p {
-        border-top: 1px solid black;
-        max-width: 75vw;
-        padding-bottom: 0rem;
-    }
-    .music-contact-info {
-        display: flex;
-    }
-    .music-contact-info img {
-        margin: 1rem;
-        max-width: 10vw;
-        max-height: 10vw;
-    }
-    
+  .music-info {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .music-image-area img {
+    border-radius: 50%;
+    max-width: 75vw;
+    max-height: 75vw;
+    padding: 1rem;
+    padding-bottom: 0;
+  }
+  .music-image-area {
+    padding: 0.5rem;
+  }
+  .music-section p {
+    border-top: 1px solid black;
+    max-width: 75vw;
+    padding-bottom: 0rem;
+  }
+  .music-contact-info {
+    display: flex;
+  }
+  .music-contact-info img {
+    margin: 1rem;
+    max-width: 10vw;
+    max-height: 10vw;
+  }
 }
 .music-image-area {
-    margin-left: 2rem;
-    margin-right: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
