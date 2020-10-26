@@ -19,12 +19,12 @@
     padding-top: 1rem;
 }
 
-.contact-info {
+.music-contact-info {
     display: flex-column;
     justify-content: space-between;
 }
 
-.contact-info img {
+.music-contact-info img {
     border-radius: 0;
     max-width: 3rem;
     max-height: 3rem;
@@ -36,12 +36,12 @@
     border-right: 1px solid black;
 }
 
-.image-area {
+.music-image-area {
     margin-left: 2rem;
     margin-right: 2rem;
 }
 
-.image-area img {
+.music-image-area img {
     width: 20rem;
     height: 20rem;
 }

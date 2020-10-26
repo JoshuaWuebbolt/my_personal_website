@@ -5,7 +5,7 @@ const Music = props => (
         <h1>Music</h1>
         <span>Interviewers readings can stop here (unless you want some new tunes)</span>
         <div className="music-info">
-            <div className="contact-info">
+            <div className="music-contact-info">
                 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
                     <img src="instagram.png" alt="follow me" />
                 </a>
@@ -19,7 +19,7 @@ const Music = props => (
                 </a>
             </div>
             <p> Lorem Ipsum heaoueghaldiuvhadsfosa oasdhfaseoif soiv sohoshfos osefhos ohosfsohfoh sow owhfoshfaoseg sp;zhoihsvoiash gos  soghsofgi eihi ih ih fs vosj sfoj sfoj sfoj foj dagoaihdg dsaogh  spisgfpsfjspfojw s</p>
-            <div className="image-area">
+            <div className="music-image-area">
                 <img src="placeholder-image.png" alt="yeet" />
             </div>
         </div>
