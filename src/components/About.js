@@ -21,25 +21,21 @@ const About = (props) => (
         <br />
         I'm currently seeking employment, you can check out my résumé below:
       </p>
-      <div className="contact-info">
-        <a href="https://www.instagram.com/ethannomiddlenamelam/">
+      <div className="self-contact-info">
+        <a href="https://www.instagram.com/ethannomiddlenamelam/" className="class-a">
           <img src="instagram.png" alt="follow me" />
         </a>
         <br />
-        <a href="https://twitter.com/ethannmnlam">
+        <a href="https://twitter.com/ethannmnlam" className="class-b">
           <img src="twitter.png" alt="follow me" />
         </a>
         <br />
-        <a href="https://www.youtube.com/channel/UCSsuc-_8laUQrkabS1iIrXQ?view_as=subscriber">
+        <a href="https://www.youtube.com/channel/UCSsuc-_8laUQrkabS1iIrXQ?view_as=subscriber" className="class-c">
           <img src="youtube.png" alt="subscribe!" />
         </a>
         <br />
-        <a href="https://www.linkedin.com/in/ethan-lam-b19529193/">
+        <a href="https://www.linkedin.com/in/ethan-lam-b19529193/" className="class-d">
           <img src="linkedin.png" alt="please give me a job" />
-        </a>
-        <br />
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-          <img src="email.png" alt="send me an email!" />
         </a>
       </div>
     </div>

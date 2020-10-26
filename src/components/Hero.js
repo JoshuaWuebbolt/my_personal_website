@@ -23,7 +23,7 @@ const Hero = props => (
                     <Typist.Backspace count={5} delay={700} />
                     videos
                     <Typist.Backspace count={6} delay={700} />
-                    bad decisions (sometimes)
+                    bad decisions :)
                     <Typist.Backspace count={25} delay={500} />
                     stuff.
                     </h1>

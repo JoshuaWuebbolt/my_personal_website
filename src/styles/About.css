@@ -1,9 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+ @media screen and (min-width: 850px) {
+    .about-info {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 1rem;
+    }
+    .image-area img {
+        border-radius: 50%;
+        width: 20rem;
+        height: 20rem;
+    }
+    .about-section p {
+        border-left: 1px solid black;
+    }   
+    .self-contact-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .self-contact-info img {
+        max-width: 3rem;
+        max-height: 3rem;
+        margin-right: 2rem;
+    }
+}
+@media screen and (max-width: 850px) {
+    .about-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-area img {
+        border-radius: 50%;
+        max-width: 80vw;
+        max-height: 80vw;
+    }
+    .image-area {
+        border-bottom: 1px solid black;
+        padding: 0.5rem;
+    }
+    .about-section p {
+        padding: 2rem;
+        padding-bottom: 0rem;
+    }
+    .self-contact-info {
+        display: flex;
+    }
+    .self-contact-info img {
+        margin: 1rem;
+        max-width: 10vw;
+        max-height: 10vw;
+    }
+    
+}
 .about-section {  
-    display: flex-column;
+    display: flex;
+    flex-direction: column;
     background-color: white;
     max-width: 100vw;
-    padding-bottom: 3rem;   
 }
 .about-section h1 {
     padding-left: 1rem;
@@ -12,40 +67,18 @@
 .about-section span {
     padding-left: 1rem;
 }
-.about-info {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 1rem;
-}
+
 .image-area {
     margin-left: 2rem;
     margin-right: 2rem;
 }
-.image-area img {
-    width: 20rem;
-    height: 20rem;
-}
-.about-section p {
-    border-left: 1px solid black;
-}
-.contact-info {
-    display: flex-column;
-    justify-content: space-between;
-}
-.contact-info img {
-    border-radius: 0;
-    max-width: 3rem;
-    max-height: 3rem;
-    margin: 0.5rem;
-    padding-right: 5vw;
-}
+
 .resume-area {
+    padding-top: 1rem;
     display: flex;
+    justify-content: center;
 }
-.invisible-spacer {
-    width:50vw;
-}
+
 .resume-area button {
     border: 1px solid black;
     border-radius: 10%;
