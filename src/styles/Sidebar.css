@@ -10,10 +10,15 @@
     transition: 0.8s ease;
 }
 .menu a {
-    padding-top: 4vh;
+    padding: 4vh;
     text-decoration: none;
+    color: inherit;
     font-size: calc(1rem + 0.5vh + 1vw);
 }
+.menu a:hover {
+    background-color: lightgray;
+}
+
 @media screen and (min-width:850px)
 {
     .sidebar button {

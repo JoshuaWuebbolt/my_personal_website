@@ -4,8 +4,8 @@ import Hero from "./Hero";
 import About from "./About";
 import Coding from "./Coding";
 import Music from "./Music";
-// import Videos from "./Videos";
-// import Other from "./Other";
+import Videos from "./Videos";
+import Other from "./Other";
 import "../styles/MainPage.css"
 import Sidebar from "./Sidebar";
 
@@ -17,8 +17,8 @@ const MainPage = (props) => {
       <About />
       <Coding />
       <Music />
-      {/*<Videos />
-      <Other />  */}
+      <Videos />
+      <Other /> 
     </div>;
     }
 

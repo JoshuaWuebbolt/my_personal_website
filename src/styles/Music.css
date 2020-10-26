@@ -30,7 +30,8 @@
         border-left: 1px solid black
     }
     .music-contact-info {
-        display: flex-column;
+        display: flex;
+        flex-direction: column-reverse;
         justify-content: space-between;
     }
     .music-contact-info img {
