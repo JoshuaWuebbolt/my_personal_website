@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import About from "./About";
-// import Coding from "./Coding";
+import Coding from "./Coding";
 // import Music from "./Music";
 // import Videos from "./Videos";
 // import Other from "./Other";
@@ -15,7 +15,7 @@ const MainPage = (props) => {
       <Sidebar/>
       <Hero />
       <About />
-      {/* <Coding /> */}
+      <Coding />
       {/* <Music />
       <Videos />
       <Other />  */}
