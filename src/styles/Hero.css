@@ -59,6 +59,6 @@
         max-height: 85vh;
     }
     .hero-box {
-        max-height: 85vh;
+        min-height: 85vh;
     }
 }
