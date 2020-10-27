@@ -1,15 +1,16 @@
 import React, {useState} from "react";
 import "../styles/Sidebar.css";
 
+
+
 function Sidebar(props) {
     const [xPosition, setX] = useState("100");
-
     function triggerSidebar() {
         setX(xPosition === 100 ? 0:100)
     }
     
     return <div className="sidebar">
-        <button onClick={triggerSidebar}>
+        <button onTouchTap={triggerSidebar} onClick={triggerSidebar}> 
                 <img src="menu.png" alt="menu"/>
         </button>
         <div className="menu" 

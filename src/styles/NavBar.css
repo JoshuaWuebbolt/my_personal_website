@@ -12,7 +12,7 @@
     flex-shrink: 0;
     padding: 1rem;
     color: black;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
 }
 .nav-bar a:active {
@@ -26,5 +26,12 @@
 {
     .desktop {
         display: none;
+    }
+    .nav-bar a {
+        text-align: left;
+    }
+    .mobile {
+        content: "";
+        flex-grow: 10;
     }
 }
