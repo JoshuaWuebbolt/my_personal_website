@@ -7,7 +7,7 @@ const About = (props) => (
     <span>This is real, this is me, I'm exa-</span>
     <div className="about-info">
       <div className="image-area">
-        <img src="placeholder-image.png" alt="yeet" />
+        <img src="about.jpg" alt="yeet" />
       </div>
       <p>
         I'm currently a second year student at the University of Toronto,

@@ -4,13 +4,12 @@ import "../styles/Sidebar.css";
 
 
 function Sidebar(props) {
-    const [xPosition, setX] = useState("100");
+    const [xPosition, setX] = useState(100);
     function triggerSidebar() {
-        setX(xPosition === 100 ? 0:100)
+        setX(xPosition === 100 ? 0:100);
     }
-    
     return <div className="sidebar">
-        <button onTouchTap={triggerSidebar} onClick={triggerSidebar}> 
+        <button onClick={triggerSidebar}> 
                 <img src="menu.png" alt="menu"/>
         </button>
         <div className="menu" 
