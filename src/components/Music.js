@@ -22,7 +22,7 @@ const Music = props => (
                 I'm in a band, you should check us out. We make music, and it'll be on streaming platforms soon(tm). In the meantime you can check out our socials!
             </p>
             <div className="music-image-area">
-                <img src="placeholder-image.png" alt="REVIVAL" />
+                <img src="DIAMONDV1-02.jpg" alt="REVIVAL" />
             </div>
         </div>
         

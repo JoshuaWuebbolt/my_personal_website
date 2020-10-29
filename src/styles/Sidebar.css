@@ -34,6 +34,10 @@
     padding: 1rem;
     z-index: 2;
 }
+.sidebar button:focus{
+    outline: none;
+}
+
 .sidebar img {
     border-radius: 0;
     max-height: 1.2rem;
