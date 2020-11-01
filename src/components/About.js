@@ -7,7 +7,7 @@ const About = (props) => (
     <span>This is real, this is me, I'm exa-</span>
     <div className="about-info">
       <div className="image-area">
-        <img src="about.jpg" alt="yeet" />
+        <img src="assets/about.jpg" alt="yeet" />
       </div>
       <p>
         I'm currently a second year student at the University of Toronto,
@@ -23,19 +23,19 @@ const About = (props) => (
       </p>
       <div className="self-contact-info">
         <a href="https://www.instagram.com/ethannomiddlenamelam/" className="class-a">
-          <img src="instagram.png" alt="follow me" />
+          <img src="assets/instagram.png" alt="follow me" />
         </a>
         <br />
         <a href="https://twitter.com/ethannmnlam" className="class-b">
-          <img src="twitter.png" alt="follow me" />
+          <img src="assets/twitter.png" alt="follow me" />
         </a>
         <br />
         <a href="https://www.youtube.com/channel/UCSsuc-_8laUQrkabS1iIrXQ?view_as=subscriber" className="class-c">
-          <img src="youtube.png" alt="subscribe!" />
+          <img src="assets/youtube.png" alt="subscribe!" />
         </a>
         <br />
         <a href="https://www.linkedin.com/in/ethan-lam-b19529193/" className="class-d">
-          <img src="linkedin.png" alt="please give me a job" />
+          <img src="assets/linkedin.png" alt="please give me a job" />
         </a>
       </div>
     </div>

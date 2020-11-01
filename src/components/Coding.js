@@ -7,7 +7,7 @@ const Coding = props => (
         <span>Click the icons to see more!</span>
         <div className="coding1">
             <a href="https://github.com/EthanLam1/my_website">
-                <img src="favico.png" alt="do it"></img>
+                <img src="assets/favico.png" alt="do it"></img>
             </a>
             <p> 
                 <i>Breathtaking. Flawless. An absolute masterpiece. </i>

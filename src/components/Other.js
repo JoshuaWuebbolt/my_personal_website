@@ -5,7 +5,7 @@ const Other = props => (
         <h1>Other Stuff</h1>
         <span>Sometimes I do other stuff.</span>
         <div className="other-list">
-            <img src="merch.png" alt="my merch logo"></img>
+            <img src="assets/merch.png" alt="my merch logo"></img>
             <p>
                 So, I sell merch. It's a long story, and part of a running joke in my life that you should definitely take a part of.
                 If you're curious as to the full story, I'll probably write a blog post on it eventually, but you can dm me!

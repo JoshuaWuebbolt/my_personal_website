@@ -1,3 +1,4 @@
+import 
 .hero-area {
     display: flex;
 }
@@ -7,7 +8,7 @@
     right: 0;
     left: 0;
     bottom: 0;
-    background-image: url("hero_image.png");
+    background-image: url("/assets/hero_image.png");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
