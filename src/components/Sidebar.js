@@ -10,7 +10,7 @@ function Sidebar(props) {
     }
     return <div className="sidebar">
         <button onClick={triggerSidebar}> 
-                <img src="menu.png" alt="menu"/>
+                <img src="assets/menu.png" alt="menu"/>
         </button>
         <div className="menu" 
         style={{transform: `translatex(${xPosition}vw)`}}> 

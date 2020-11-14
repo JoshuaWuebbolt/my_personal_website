@@ -14,7 +14,7 @@ const MainPage = (props) => {
       <Navbar/>
       <Sidebar/>
       <Hero />
-      <About />
+      <About/>
       <Coding />
       <Music />
       <Videos />
