@@ -23,14 +23,13 @@
         border-left: 1px solid black;
     }
     .other-list img { 
-        max-width: 13rem;
-        max-height: 13rem;
+        max-width: 15rem;
+        max-height: 15rem;
         margin: 1rem;
         padding-left: 1vw;
     }
 }
 @media screen and (max-width: 850px) {
-
     .other-list img { 
         max-width: 75vw;
         max-height: 75vw;

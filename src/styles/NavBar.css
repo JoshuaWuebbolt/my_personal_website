@@ -6,6 +6,10 @@
     position: fixed;
     right:0;
     left: 0;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+}
+.nav-bar .nav-item {
+    display: inline;
 }
 .nav-bar a {
     flex-grow: 1;
@@ -19,9 +23,20 @@
     background-color: grey;
 }
 .nav-bar a:hover {
-    background-color: grey;
+    background-color: lightgray;
 }
-
+.nav-bar button {
+    font-family: inherit;
+    border: none;
+    background-color: transparent;
+    flex-grow: 1;
+}
+.nav-bar button:focus {
+    outline: none;
+}
+.nav-bar button:hover {
+    background-color: lightgray;
+}
 @media screen and (max-width:850px)
 {
     .desktop {
