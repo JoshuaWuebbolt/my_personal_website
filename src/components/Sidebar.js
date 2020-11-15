@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import "../styles/Sidebar.css";
-import {Link, animateScroll} from "react-scroll"
+import {Link} from "react-scroll"
 import {Link as Direct} from "react-router-dom"
 
 function Sidebar(props) {
