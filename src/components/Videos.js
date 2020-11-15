@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Videos.css";
 
 const Videos = props => (
-    <div className="videos-area">
+    <div className="videos-area" id="video-section">
         <h1>Videos</h1>
         <span> Please subscribe to my youtube channel. Tuition's expensive.</span>
         <iframe 

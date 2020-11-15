@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "../styles/Sidebar.css";
-
-
+import {Link, animateScroll} from "react-scroll"
+import {Link as Direct} from "react-router-dom"
 
 function Sidebar(props) {
     const [xPosition, setX] = useState(100);
@@ -14,12 +14,12 @@ function Sidebar(props) {
         </button>
         <div className="menu" 
         style={{transform: `translatex(${xPosition}vw)`}}> 
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">About Me</a>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Coding</a>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Music</a>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Videos</a>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Other</a>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Blog</a>
+            <Link to={"about-section"} smooth={true} duration={1000} offset={-50} onClick={triggerSidebar}>About</Link>
+            <Link to={"coding-section"} smooth={true} duration={1000} offset={-50} onClick={triggerSidebar}>Coding</Link>
+            <Link to={"music-section"} smooth={true} duration={1000} offset={-50} onClick={triggerSidebar}>Music</Link>
+            <Link to={"video-section"} smooth={true} duration={1000} offset={-50} onClick={triggerSidebar}>Videos</Link>
+            <Link to={"other-section"} smooth={true} duration={1000} offset={-50} onClick={triggerSidebar}>Other</Link>
+            <Direct to="/blog">Blog</Direct>
         </div>
     </div>
 }

@@ -8,6 +8,7 @@
     min-width: 100vw;
     min-height: 100vh;
     transition: 0.8s ease; 
+    z-index: 1;
 }
 .menu a {
     padding: 4vh;

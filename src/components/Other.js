@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Other.css"
 const Other = props => (
-    <div className="other-area">
+    <div className="other-area" id="other-section">
         <h1>Other Stuff</h1>
         <span>Sometimes I do other stuff.</span>
         <div className="other-list">

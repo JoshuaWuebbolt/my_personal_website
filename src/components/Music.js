@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Music.css"
 const Music = props => (
-    <div className = "music-section">
+    <div className = "music-section" id="music-section">
         <h1>Music</h1>
         <span>Interviewers reading can stop here (unless you want some new tunes)</span>
         <div className="music-info">

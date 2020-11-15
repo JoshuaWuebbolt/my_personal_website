@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Coding.css"
 
 const Coding = props => (
-    <div className="coding-area">
+    <div className="coding-area" id="coding-section">
         <h1>Coding</h1>
         <span>Click the icons to see more!</span>
         <div className="coding1">
