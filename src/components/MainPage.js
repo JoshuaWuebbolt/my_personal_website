@@ -14,11 +14,17 @@ const MainPage = (props) => {
       <Navbar/>
       <Sidebar/>
       <Hero />
-      <About/>
-      <Coding />
-      <Music />
-      <Videos />
-      <Other /> 
+      <div className="main-body">
+        <div className="spacer"/>
+        <div className="main-content">
+          <About/>
+          <Coding />
+          <Music />
+          <Videos />
+          <Other /> 
+        </div>
+        <div className="spacer"/>
+      </div>
     </div>;
     }
 

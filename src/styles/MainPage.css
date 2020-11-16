@@ -6,15 +6,24 @@
   justify-content: flex-start;
   font-size: calc(1em + 0.2vw);
 }
-
-
 img {
     overflow: hidden;
 }
-
 p {
     flex: 1 1 0px;
     justify-content: left;
     text-align: left;
     padding: 15px;
+}
+@media screen and (min-width:700px) {
+  .main-body {
+    display: flex;
+  }
+  .main-body .spacer {
+    background-color: white;
+    content: "";
+  }
+  .main-content {
+    max-width: 900px;
+  }
 }

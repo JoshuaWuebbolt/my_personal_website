@@ -13,7 +13,18 @@
 }
 .videos-area iframe {
     margin-top: 1.5rem;;
-    width:75vw;
-    height: 40vw;   
-    margin-left: 12vw;
+}
+@media screen and (min-width:900px) {
+    .videos-area iframe {
+        width: 700px;
+        height: 400px;
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width:900px) {
+    .videos-area iframe {
+        width:75vw;
+        height: 40vw;   
+        margin-left: 12vw;
+    }
 }

@@ -12,7 +12,7 @@
 .about-section span {
     padding-left: 1rem;
 }
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 900px) {
     .about-info {
         display: flex;
         justify-content: space-around;
@@ -38,7 +38,7 @@
         margin-right: 2rem;
     }
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
     .about-info{
         display: flex;
         flex-direction: column;
@@ -68,20 +68,16 @@
         max-width: 10vw;
         max-height: 10vw;
     }
-    
 }
-
 .image-area {
     margin-left: 2rem;
     margin-right: 2rem;
 }
-
 .resume-area {
     padding-top: 1rem;
     display: flex;
     justify-content: center;
 }
-
 .resume-area button {
     border: 1px solid black;
     border-radius: 10%;

@@ -37,6 +37,7 @@
 .nav-bar button:hover {
     background-color: lightgray;
 }
+
 @media screen and (max-width:850px)
 {
     .desktop {
