@@ -15,9 +15,10 @@
     text-decoration: none;
     color: inherit;
     font-size: calc(1rem + 0.5vh + 1vw);
+    cursor: pointer;
 }
 .menu a:hover {
-    background-color: lightgray;
+    text-decoration: underline;
 }
 
 @media screen and (min-width:850px)
@@ -34,6 +35,7 @@
     border: none;
     padding: 1rem;
     z-index: 2;
+    cursor: pointer;
 }
 .sidebar button:focus{
     outline: none;
