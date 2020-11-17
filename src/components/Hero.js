@@ -19,7 +19,7 @@ const Hero = props => (
             <div className="text-line">
                 <div className="spacer" />
                 <h1>
-                    <Typist startDelay={3000} cursor={{hideWhenDone:true, hideWhenDoneDelay:3000}}>
+                    <Typist startDelay={2000} cursor={{hideWhenDone:true, hideWhenDoneDelay:3000}}>
                     code
                     <Typist.Backspace count={4} delay={1000}/>
                     music
