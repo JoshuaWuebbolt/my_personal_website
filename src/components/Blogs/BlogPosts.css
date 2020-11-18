@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 .blog-page{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 article {
     padding-top: 6rem;
@@ -8,15 +9,21 @@ article {
 
 article p {
     padding: 0;
+    line-height: 1.5;
 } 
-
 .italics {
     font-style: italic;
 }
-@media screen and (min-width:650px) {
+article h1 {
+    margin-bottom: 0px;
+}
+article h2 {
+    margin-bottom: 0px;
+}
+@media screen and (min-width:700px) {
     article {
         display: grid;
-        grid-template-columns: 1fr 1fr 10px 600px 10px 1fr 1fr;
+        grid-template-columns: 1fr 1fr 10px 700px 10px 1fr 1fr;
     }
     article > * {
         grid-column-start: 4;
@@ -24,5 +31,18 @@ article p {
     article img {
         grid-column-start: 2;
         grid-column-end: 7;
+    }
+    article {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:700px) {
+    article {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        font-size: 1.1rem;;
     }
 }

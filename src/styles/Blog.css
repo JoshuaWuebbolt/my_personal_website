@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 .blog {
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
 }
 .blog-nav {
     background-color: #f5f3f4;
