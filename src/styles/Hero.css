@@ -1,4 +1,3 @@
-import 
 .hero-area {
     display: flex;
 }
@@ -52,7 +51,7 @@ import
 .text-line {
     display: flex;
 }
-.spacer {
+.text-line .spacer {
     flex-grow: 1;
 }
 @supports (-webkit-overflow-scrolling: touch) {

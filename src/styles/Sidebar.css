@@ -6,12 +6,12 @@
     position: fixed;
     background-color: white;
     min-width: 100vw;
-    min-height: 100vh;
+    min-height: 120vh;
     transition: 0.8s ease; 
     z-index: 1;
 }
 .menu a {
-    padding: 4vh;
+    padding: 3vh;
     text-decoration: none;
     color: inherit;
     font-size: calc(1rem + 0.5vh + 1vw);
@@ -20,7 +20,9 @@
 .menu a:hover {
     text-decoration: underline;
 }
-
+.menu .spacer {
+    min-height: 20vh;
+}
 @media screen and (min-width:850px)
 {
     .sidebar button {

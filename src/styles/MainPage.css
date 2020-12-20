@@ -24,6 +24,7 @@ p {
   .main-body .spacer {
     background-color: white;
     content: "";
+    flex-grow: 1;
   }
   .main-content {
     max-width: 900px;
