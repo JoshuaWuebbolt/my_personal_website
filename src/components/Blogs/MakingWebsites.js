@@ -10,6 +10,7 @@ import First from "./assets/firstwebsite.png"
 import Style from "./assets/style.png"
 import Red from "./assets/butredthistime.png"
 import Build from "./assets/build-settings.png"
+import Home from "./assets/home.png"
 import {Link} from "react-router-dom"
 
 
@@ -18,6 +19,9 @@ const MakingWebsites = props => (
         <nav className="blog-nav"> 
             <Link to="/blog">
                 <h2>Stuff I Write</h2>
+            </Link>
+            <Link to="/"> 
+                <img src={Home} alt="go home"/>
             </Link>
     </nav>
         <article>

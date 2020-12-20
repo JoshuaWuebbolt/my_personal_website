@@ -5,14 +5,18 @@ import {Link as Direct} from "react-router-dom"
 
 function Sidebar(props) {
     const [xPosition, setX] = useState(100);
-    const [scrollLock, setScrollLock] = useState("")
+    const [scrollLock, setScrollLock] = useState("visible")
     function triggerSidebar() {
         setX(xPosition === 100 ? 0:100);
-        setScrollLock(xPosition === 100? "hidden":"")
+        setScrollLock(scrollLock === "visible"? "hidden":"visible")
+
+    }
+    function toggleLock() {
+        document.body.style.overflow = "visible"
     }
     document.body.style.overflow = scrollLock
     return <div className="sidebar">
-        <button onClick={triggerSidebar}> 
+        <button className="sidebar-button" onClick={triggerSidebar}> 
                 <img src="assets/menu.png" alt="menu"/>
         </button>
         <div className="menu" 
@@ -22,7 +26,8 @@ function Sidebar(props) {
             <Link to={"music-section"} smooth={true} duration={1000} offset={-50} onClick={triggerSidebar}>Music</Link>
             <Link to={"video-section"} smooth={true} duration={1000} offset={-50} onClick={triggerSidebar}>Videos</Link>
             <Link to={"other-section"} smooth={true} duration={1000} offset={-50} onClick={triggerSidebar}>Other</Link>
-            <Direct to="/blog">Blog</Direct>
+
+            <Direct onClick={toggleLock} to="/blog" >Blog</Direct>
             <div className="spacer"> </div>
         </div>
     </div>

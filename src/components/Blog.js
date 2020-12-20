@@ -20,13 +20,13 @@ const Blog = (props) => (
           <span className="length"><i>Length: ~3min</i></span>
         </div>
       </Link>
-      <Link to="/blog/making-websites"> 
+      {/* <Link to="/blog/making-websites"> 
         <div className ="blogpost-area">
           <span className="date">Oct 29. 2020</span>
           <h1 className="title">Building Websites for Beginners: By a Beginner</h1>
           <span className="length"><i>Length: ~2min</i></span>
         </div>
-      </Link>
+      </Link> */}
     </ul>
   </div>
 );

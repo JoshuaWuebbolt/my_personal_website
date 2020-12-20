@@ -5,7 +5,6 @@
 article {
     padding-top: 6rem;
 }
-
 article p {
     padding: 0;
     line-height: 1.5;
@@ -28,8 +27,21 @@ article h2 {
         grid-column-start: 4;
     }
     article img {
+        object-fit: cover;
+        width: 100%;
+        max-height: 100%;
+    }
+    article img .small {
+        grid-column-start: 3;
+        grid-column-end: 6;
+    }
+    article img .medium {
         grid-column-start: 2;
         grid-column-end: 7;
+    }
+    article img .large {
+        grid-column-start: 1;
+        grid-column-end: 8;
     }
     article {
         font-size: 1.2rem;
@@ -43,5 +55,10 @@ article h2 {
         margin-left: 5vw;
         margin-right: 5vw;
         font-size: 1.1rem;;
+        align-content: center;
+    }
+    article img {
+        width: 100%;
+        height: auto;
     }
 }

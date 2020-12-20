@@ -23,13 +23,21 @@
 .menu .spacer {
     min-height: 20vh;
 }
+/* .menu .blog-button {
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    font: inherit;
+    color: inherit;
+    padding: 3vh;
+} */
 @media screen and (min-width:850px)
 {
-    .sidebar button {
+    .sidebar-button {
         display: none;
     }
 }
-.sidebar button {
+.sidebar-button {
     display: static;
     position: fixed;
     right:0;
@@ -39,7 +47,7 @@
     z-index: 2;
     cursor: pointer;
 }
-.sidebar button:focus{
+.sidebar-button:focus{
     outline: none;
 }
 
