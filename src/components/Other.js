@@ -1,15 +1,26 @@
 import React from "react";
 import "../styles/Other.css"
+import {Link} from "react-router-dom"
 const Other = props => (
     <div className="other-area" id="other-section">
         <h1>Other Stuff</h1>
         <span>Sometimes I do other stuff.</span>
         <div className="other-list">
-            <img src="assets/merch.png" alt="my merch logo"></img>
+            <a href="instagram.com/ethannomiddlenamelam">
+                <img src="assets/merch.png" alt="my merch logo"></img>
+            </a>
             <p>
                 So, I sell merch. It's a long story, and part of a running joke in my life that you should definitely take a part of.
                 If you're curious as to the full story, I'll probably write a blog post on it eventually, but you can dm me!
                 I have a shirt with my face on it, and a hoodie with my instagram on it. I make no money off of this, it's just fun to say <i>I have merch.</i>
+            </p>
+        </div>
+        <div className="other-list">
+            <Link to="/blog">
+                <img src="assets/Blog.png" alt="my blog logo"></img>
+            </Link>
+            <p>
+                See also: Top right of your screen.
             </p>
         </div>
         {/* <div className="other-list">

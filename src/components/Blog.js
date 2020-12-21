@@ -13,13 +13,23 @@ const Blog = (props) => (
       </Link>
     </nav>
     <ul className="blog-list">
-      <Link to="/blog/critical-review"> 
+      <Link to="/blog/things-i-learned-from-my-online-semester"> 
+        <div className ="blogpost-area">
+          <span className="date">Dec 21. 2020</span>
+          <h1 className="title">Things I Learned From My Online Semester During The End of The World</h1>
+          <span className="length"><i>Length: ~4min</i></span>
+          <br></br>
+          <span>Ethan Lam</span>
+        </div>
+      </Link>
+      {/* <Link to="/blog/critical-review"> 
         <div className ="blogpost-area">
           <span className="date">Nov 17. 2020</span>
           <h1 className="title">Critically Reviewing an Article That’s Just a Critical Review of Interviews, Which Are Really Just Critical Reviews of People</h1>
           <span className="length"><i>Length: ~3min</i></span>
         </div>
-      </Link>
+      </Link> */}
+      
       {/* <Link to="/blog/making-websites"> 
         <div className ="blogpost-area">
           <span className="date">Oct 29. 2020</span>

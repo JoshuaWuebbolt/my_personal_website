@@ -61,7 +61,7 @@ const MakingWebsites = props => (
             <p>
             To this.
             </p>
-            <img src={After} alt="yeet" />
+            <img src={After} alt="yeet" class="medium" />
             <p>
             If you’re just building a static website, HTML and CSS is all you’ll need. If you want your website to be dynamic (the user can interact and make changes to your website), you’ll need to use JavaScript. (But you can worry about JS later).
             </p>

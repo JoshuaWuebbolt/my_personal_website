@@ -8,6 +8,7 @@ import Videos from "./Videos";
 import Other from "./Other";
 import "../styles/MainPage.css"
 import Sidebar from "./Sidebar";
+import Footer from "./Footer"
 
 const MainPage = (props) => {
   return  <div className="main-page">
@@ -21,9 +22,11 @@ const MainPage = (props) => {
           <Coding />
           <Music />
           <Videos />
-          <Other /> 
+          <Other />
+          <Footer/>
         </div>
         <div className="spacer"/>
+
       </div>
     </div>;
     }

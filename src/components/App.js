@@ -4,6 +4,7 @@ import MainPage from "./MainPage"
 import Blog from "./Blog"
 import MakingWebsites from "./Blogs/MakingWebsites";
 import CriticalReview from "./Blogs/CriticalReview";
+import ThingsILearned from "./Blogs/ThingsILearnedFromMyOnlineSemester";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/blog" component = {Blog} exact/>
           <Route path="/blog/making-websites" component = {MakingWebsites} exact/>
           <Route path="/blog/critical-review" component = {CriticalReview} exact/>
+          <Route path="/blog/things-i-learned-from-my-online-semester" component = {ThingsILearned} exact/>
         </Switch>
       </BrowserRouter>
     </div>
