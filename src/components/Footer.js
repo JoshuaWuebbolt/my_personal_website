@@ -7,7 +7,7 @@ const Footer = props => (
             © Ethan Lam
         </p>
         <p>
-            <a href="instagram.com/ethannomiddlenamelam">
+            <a href="https://instagram.com/ethannomiddlenamelam">
                 follow me on instagram follow me on instagram follow me on instagram follow me on instagram follow me on instagram follow me on instagram 
             </a>
         </p>
