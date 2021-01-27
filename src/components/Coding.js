@@ -26,13 +26,19 @@ const Coding = props => (
                 and can support multiple users trading items in real time. Click the icon to check out our repository. 
             </p>
         </div>
-        {/* 
         <div className="coding1">
-            <img src="logo.png" alt="very original"></img>
+            <a href="https://devpost.com/software/operation-guesser">
+
+                <img src="assets/Basic_arithmetic_operators.png" alt="math symbols"></img>
+            </a>
             <p>
-                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                This was a project designed by me and two friends for Utm's PyJaC competition. On the front end, it's a math game. On the back end, 
+                it's an algorithm that can guess mathematical operations given a set of numbers. I helped optimize and debug our backend, contributed
+                to our front end, and presented the code on competition day. We ended up winning in our category! Click the image to check out our devpost
+                page. 
             </p>
         </div>
+        {/* 
         <div className="coding1">
             <img src="logo.png" alt="very original"></img>
             <p>
