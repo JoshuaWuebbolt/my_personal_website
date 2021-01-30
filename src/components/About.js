@@ -41,7 +41,7 @@ const About = (props) => (
     </div>
     <div className="resume-area">
       <div className="invisible-spacer" />
-      <a href="Ethan-Lam-Resume.pdf">
+      <a href="Ethan_Lam_Resume.pdf">
         <button type="button">Résumé</button>
       </a>
     </div>
