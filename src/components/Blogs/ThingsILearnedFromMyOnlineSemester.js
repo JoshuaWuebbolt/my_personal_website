@@ -56,9 +56,7 @@ const ThingsILearned = props => (
             <p>DISCLAIMER: MOSTLY.</p>
             <p>Listen. You’re paying way too much money to attend a school online. Take advantage of your resources. <em>Talk to your profs</em>. I guarantee most of the time, they’ll be nice people who legitimately want to see you succeed. If you’re struggling with a concept or assignment, <em>ask the actual person you are paying to teach you, to teach you</em>.</p>
             <p>Side note, if you’re at UTM and you ever get a math course with Andie, you’re in for a good time. I actually enjoyed calculus because of her, a task I previously thought would be impossible.</p>
-            <p>Anyway, there's not much else to say here. Your professors are people too. Just talk to them. I say <em>mostly</em> because we’ve all had that experience with a bad prof. Man oh man, was there one prof this semester who really just fu-</p>
-            <p>You know what, never mind. I’m not gonna name names. All I’ll say is this.</p>
-            <p>They were <span className="subtly-bigger">Dema</span>nding. :)</p>
+            <p>Anyway, there's not much else to say here. Your professors are people too. Just talk to them. </p>
             <h2 id="cherish-the-people-you-care-about">Cherish The People You Care About</h2>
             <p>That’s all.</p>
             <p>This year has taught me the importance of cherishing the people that I get to spend my time with. Friends, family, whoever, it’s super important to make the best of the time you have with them, and I learned that <em>hard</em> this year. Chances are, if you’re reading this, you’re one of those people for me.</p>
