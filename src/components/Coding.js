@@ -6,6 +6,29 @@ const Coding = props => (
         <h1>Coding</h1>
         <span>Click the icons to see more!</span>
         <div className="coding1">
+            <a href="https://devpost.com/software/track-19-sczex8">
+
+                <img src="assets/track19.jpg" alt="track-19 symbol"></img>
+            </a>
+            <p>
+                TLDR: Ontario's covid reponse app was so bad, even a group of kids competing in UTM's Hack The Case Hackathon/Case Competition hybrid could write a better one 
+                in three days. We used Next.js for the front end, and firebase for the back end. My focus was on the front end and presentation. We ended up taking home first place! 
+                Click the image to check out our devpost page.
+            </p>
+        </div>
+        <div className="coding1">
+            <a href="https://devpost.com/software/operation-guesser">
+
+                <img src="assets/Basic_arithmetic_operators.png" alt="math symbols"></img>
+            </a>
+            <p>
+                This was a project designed by me and two friends for UTM's PyJaC competition. On the front end, it's a math game. On the back end, 
+                it's an algorithm that can guess mathematical operations given a set of numbers. I helped optimize and debug our backend, contributed
+                to our front end, and presented the code on competition day. We ended up winning in our category! Click the image to check out our devpost
+                page. 
+            </p>
+        </div>
+        <div className="coding1">
             <a href="https://github.com/EthanLam1/my_website">
                 <img src="assets/website.png" alt="do it"></img>
             </a>
@@ -26,18 +49,7 @@ const Coding = props => (
                 and can support multiple users trading items in real time. Click the icon to check out our repository. 
             </p>
         </div>
-        <div className="coding1">
-            <a href="https://devpost.com/software/operation-guesser">
 
-                <img src="assets/Basic_arithmetic_operators.png" alt="math symbols"></img>
-            </a>
-            <p>
-                This was a project designed by me and two friends for Utm's PyJaC competition. On the front end, it's a math game. On the back end, 
-                it's an algorithm that can guess mathematical operations given a set of numbers. I helped optimize and debug our backend, contributed
-                to our front end, and presented the code on competition day. We ended up winning in our category! Click the image to check out our devpost
-                page. 
-            </p>
-        </div>
         {/* 
         <div className="coding1">
             <img src="logo.png" alt="very original"></img>
