@@ -6,6 +6,17 @@ const Coding = props => (
         <h1>Coding</h1>
         <span>Click the icons to see more!</span>
         <div className="coding1">
+            <a href="https://devpost.com/software/lectern-hezyqc">
+
+                <img src="assets/lectern.jpeg" alt="lectern symbol"></img>
+            </a>
+            <p>
+                Learning shouldn't be confined by borders. We utilized blockchain technology to create our own cryptocurrency that can be used by students and tutors on our 
+                very own e-learning platform, which was created as a project for TOHacks 2021! I coded the cryptocurrency, and used chakra-ui to create a responsive and 
+                dynamic site. Click the image to check out our devpost page!
+            </p>
+        </div>
+        <div className="coding1">
             <a href="https://devpost.com/software/track-19-sczex8">
 
                 <img src="assets/track19.jpg" alt="track-19 symbol"></img>
