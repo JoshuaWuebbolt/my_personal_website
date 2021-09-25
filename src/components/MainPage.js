@@ -20,8 +20,8 @@ const MainPage = (props) => {
         <div className="main-content">
           <About/>
           <Coding />
-          <Music />
           <Videos />
+          <Music />
           <Other />
           <Footer/>
         </div>
