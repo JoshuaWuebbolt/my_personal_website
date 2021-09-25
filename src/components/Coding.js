@@ -6,7 +6,19 @@ const Coding = props => (
         <h1>Coding</h1>
         <span>Click the icons to see more!</span>
         <div className="coding1">
-            <a href="https://devpost.com/software/lectern-hezyqc">
+            <a href="https://github.com/Fifth-Order-Ignorant/Baobab" target="_blank">
+
+                <img src="assets/baobab.jpg" alt="baobab logo"></img>
+            </a>
+            <p>
+                Learning. Networking. Growing. You can do all of these at once on Baobab, a educational social media site built for entrepreneurs. 
+                We wrote a full stack web application with a built in educational system, including assignment deliverables, real-time discussion boards, and user profiles 
+                to encouerage networking. I worked as a full stack developer and founder, writing front-end and back-end code, and communicating with the product team to ensure 
+                the platform matched what our client wanted. Click the icon to check out our repo!
+            </p>
+        </div>
+        <div className="coding1">
+            <a href="https://devpost.com/software/lectern-hezyqc" target="_blank">
 
                 <img src="assets/lectern.jpeg" alt="lectern symbol"></img>
             </a>
@@ -17,7 +29,7 @@ const Coding = props => (
             </p>
         </div>
         <div className="coding1">
-            <a href="https://devpost.com/software/track-19-sczex8">
+            <a href="https://devpost.com/software/track-19-sczex8" target="_blank">
 
                 <img src="assets/track19.jpg" alt="track-19 symbol"></img>
             </a>
@@ -28,19 +40,19 @@ const Coding = props => (
             </p>
         </div>
         <div className="coding1">
-            <a href="https://devpost.com/software/operation-guesser">
+            <a href="https://devpost.com/software/operation-guesser" target="_blank">
 
                 <img src="assets/Basic_arithmetic_operators.png" alt="math symbols"></img>
             </a>
             <p>
                 This was a project designed by me and two friends for UTM's PyJaC competition. On the front end, it's a math game. On the back end, 
-                it's an algorithm that can guess mathematical operations given a set of numbers. I helped optimize and debug our backend, contributed
+                it's an algorithm that can guess mathematical operations given a set of numbers. I used dynamic programming to optimize our backend, contributed
                 to our front end, and presented the code on competition day. We ended up winning in our category! Click the image to check out our devpost
                 page. 
             </p>
         </div>
         <div className="coding1">
-            <a href="https://github.com/EthanLam1/my_website">
+            <a href="https://github.com/EthanLam1/my_website" target="_blank">
                 <img src="assets/website.png" alt="do it"></img>
             </a>
             <p> 
@@ -50,7 +62,7 @@ const Coding = props => (
             </p>
         </div>
         <div className="coding1">
-            <a href="https://github.com/nigow/TradingSystem">
+            <a href="https://github.com/nigow/TradingSystem" target="_blank">
                 <img src="assets/trading.png" alt="trading interface menu"></img>
             </a>
             <p>
