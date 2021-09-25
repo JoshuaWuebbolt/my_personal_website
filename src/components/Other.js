@@ -6,7 +6,7 @@ const Other = props => (
         <h1>Other Stuff</h1>
         <span>Sometimes I do other stuff.</span>
         <div className="other-list">
-            <a href="https://instagram.com/ethannomiddlenamelam/" target="_blank">
+            <a href="https://instagram.com/ethannomiddlenamelam/" target="_blank" rel="noopener noreferrer">
                 <img src="assets/merch.png" alt="my merch logo"></img>
             </a>
             <p>

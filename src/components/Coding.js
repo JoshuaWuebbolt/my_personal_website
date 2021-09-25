@@ -6,7 +6,7 @@ const Coding = props => (
         <h1>Coding</h1>
         <span>Click the icons to see more!</span>
         <div className="coding1">
-            <a href="https://github.com/Fifth-Order-Ignorant/Baobab" target="_blank">
+            <a href="https://github.com/Fifth-Order-Ignorant/Baobab" target="_blank" rel="noopener noreferrer">
 
                 <img src="assets/baobab.jpg" alt="baobab logo"></img>
             </a>
@@ -18,7 +18,7 @@ const Coding = props => (
             </p>
         </div>
         <div className="coding1">
-            <a href="https://devpost.com/software/lectern-hezyqc" target="_blank">
+            <a href="https://devpost.com/software/lectern-hezyqc" target="_blank" rel="noopener noreferrer">
 
                 <img src="assets/lectern.jpeg" alt="lectern symbol"></img>
             </a>
@@ -29,7 +29,7 @@ const Coding = props => (
             </p>
         </div>
         <div className="coding1">
-            <a href="https://devpost.com/software/track-19-sczex8" target="_blank">
+            <a href="https://devpost.com/software/track-19-sczex8" target="_blank" rel="noopener noreferrer">
 
                 <img src="assets/track19.jpg" alt="track-19 symbol"></img>
             </a>
@@ -40,7 +40,7 @@ const Coding = props => (
             </p>
         </div>
         <div className="coding1">
-            <a href="https://devpost.com/software/operation-guesser" target="_blank">
+            <a href="https://devpost.com/software/operation-guesser" target="_blank" rel="noopener noreferrer">
 
                 <img src="assets/Basic_arithmetic_operators.png" alt="math symbols"></img>
             </a>
@@ -52,7 +52,7 @@ const Coding = props => (
             </p>
         </div>
         <div className="coding1">
-            <a href="https://github.com/EthanLam1/my_website" target="_blank">
+            <a href="https://github.com/EthanLam1/my_website" target="_blank" rel="noopener noreferrer">
                 <img src="assets/website.png" alt="do it"></img>
             </a>
             <p> 
@@ -62,7 +62,7 @@ const Coding = props => (
             </p>
         </div>
         <div className="coding1">
-            <a href="https://github.com/nigow/TradingSystem" target="_blank">
+            <a href="https://github.com/nigow/TradingSystem" target="_blank" rel="noopener noreferrer">
                 <img src="assets/trading.png" alt="trading interface menu"></img>
             </a>
             <p>
