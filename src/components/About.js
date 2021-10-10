@@ -10,7 +10,7 @@ const About = (props) => (
         <img src="assets/about.jpg" alt="yeet" />
       </div>
       <p>
-        Hey, thanks for stopping by! My name's Ethan, I'm a third year student computer science student at the University of Toronto.
+        Hey, thanks for stopping by! My name's Ethan, I'm a third year computer science student at the University of Toronto.
         I'm currently interning at HSBC as a full stack developer, I'm the marketing director for the Mathematics and Computational
         Society at UTM, and I'm a teaching assistant for MAT102, CSC207 and CSCC01!
         <br /> <br />
