@@ -5,6 +5,7 @@ import Blog from "./Blog"
 import MakingWebsites from "./Blogs/MakingWebsites";
 import CriticalReview from "./Blogs/CriticalReview";
 import ThingsILearned from "./Blogs/ThingsILearnedFromMyOnlineSemester";
+import NewYearResolutions2022 from "./Blogs/NewYearResolutions2022";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/blog/making-websites" component = {MakingWebsites} exact/>
           <Route path="/blog/critical-review" component = {CriticalReview} exact/>
           <Route path="/blog/things-i-learned-from-my-online-semester" component = {ThingsILearned} exact/>
+          <Route path="/blog/new-year-resolutions-2022" component = {NewYearResolutions2022} exact/>
         </Switch>
       </BrowserRouter>
     </div>

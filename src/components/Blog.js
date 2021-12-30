@@ -13,6 +13,15 @@ const Blog = (props) => (
       </Link>
     </nav>
     <ul className="blog-list">
+      <Link to="/blog/new-year-resolutions-2022"> 
+        <div className ="blogpost-area">
+          <span className="date">Dec 29. 2021</span>
+          <h1 className="title">What I Did in 2021, and Goals for 2022</h1>
+          <span className="length"><i>Length: ~9min</i></span>
+          <br></br>
+          <span>Ethan Lam</span>
+        </div>
+      </Link>
       <Link to="/blog/things-i-learned-from-my-online-semester"> 
         <div className ="blogpost-area">
           <span className="date">Dec 21. 2020</span>
