@@ -29,7 +29,7 @@ const NewYearResolutions2022 = props => (
 <ul>
 <li><p>Became a TA, and immediately overdid it by TAing a first year (MAT102), second year (CSC207), <em>and</em> third year (CSCC01) course in the same semester. </p>
 </li>
-<li><p>Made a lot of projects, did a few hackathons, and even <a href="https://devpost.com/EthanLam1?ref_content=user-portfolio&amp;ref_feature=portfolio&amp;ref_medium=global-nav">won some of them!</a></p>
+<li><p>Made a lot of projects, did a few hackathons, and even <a target="_blank" rel="noopener noreferrer" href="https://devpost.com/EthanLam1?ref_content=user-portfolio&amp;ref_feature=portfolio&amp;ref_medium=global-nav">won some of them!</a></p>
 </li>
 <li><p>Joined a startup created by some of my friends. We don&#39;t have anything public yet, but we did some good work over the summer, and I learned a lot!</p>
 </li>
@@ -37,14 +37,14 @@ const NewYearResolutions2022 = props => (
 </li>
 <li><p><em>Did</em> the tech internship, realized that industry is actually pretty cool, and was able to say that I contributed to software in one of the biggest banks in the world!</p>
 </li>
-<li><p>Released an EP (and an acoustic one) with the <a href="https://open.spotify.com/artist/44FK2ZMsWgDucYVasjJ5p9?si=JtjGn4g6RQqbttwrmT8M2w">band I&#39;m a part of</a>, although if I&#39;m being honest, I was definitely carried by them (Dan if you&#39;re reading this, you&#39;re a music production GOAT and don&#39;t let anyone tell you otherwise)</p>
+<li><p>Released an EP (and an acoustic one) with the <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/artist/44FK2ZMsWgDucYVasjJ5p9?si=JtjGn4g6RQqbttwrmT8M2w">band I&#39;m a part of</a>, although if I&#39;m being honest, I was definitely carried by them (Dan if you&#39;re reading this, you&#39;re a music production GOAT and don&#39;t let anyone tell you otherwise)</p>
 </li>
-<li><p>Joined the <a href="https://www.instagram.com/utmmcss/">Mathematics and Computational Sciences Society</a> at UTM as an executive, and fulfilled my dream of making club marketing <em>not</em> boring!</p>
+<li><p>Joined the <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/utmmcss/">Mathematics and Computational Sciences Society</a> at UTM as an executive, and fulfilled my dream of making club marketing <em>not</em> boring!</p>
 </li>
 </ul>
 <p>As for things I learned this year:</p>
 <ul>
-<li><p><strong>You can do a <em>lot</em> in a year</strong>. I read this online somewhere: people overestimate how much they can get done in a day, and underestimate how much they can get done in a year. I was looking back on my <a href="https://www.ethanlam.ca/Ethan_Lam_Resume.pdf">resume</a> and found that basically everything on there had been accomplished in 2021. Don&#39;t ever feel like it&#39;s too late to do anything.</p>
+<li><p><strong>You can do a <em>lot</em> in a year</strong>. I read this online somewhere: people overestimate how much they can get done in a day, and underestimate how much they can get done in a year. I was looking back on my <a target="_blank" rel="noopener noreferrer" href="https://www.ethanlam.ca/Ethan_Lam_Resume.pdf">resume</a> and found that basically everything on there had been accomplished in 2021. Don&#39;t ever feel like it&#39;s too late to do anything.</p>
 </li>
 <li><p><strong>Opportunities only happen if you look for them.</strong> Pretty much every opportunity I had this year happened because I communicated with someone. This year, I learned that very rarely does anything just <em>happen</em> to you. However, <em>making</em> things happen is not as difficult as I originally thought it&#39;d be. A lot of the time, talking to people and telling them that you&#39;re interested in something (working on a project together, a job, a TAship) actually does a lot to get your foot in the door.</p>
 </li>
@@ -71,9 +71,9 @@ const NewYearResolutions2022 = props => (
 <p>i am tired. </p>
 <h3 id="so-">So.</h3>
 <p>Keeping in mind that it&#39;s been a full year of academic and career hustling, my goals for next year look a little different than they did for this year.</p>
-<p>Before I list them though, a little caveat (because I can be as long winded as I want because this is my blog): these goals are not quantifiable. I recently read a <a href="https://www.amazon.ca/Subtle-Art-Not-Giving-Counterintuitive/dp/0062457713">pretty cool book</a> that talked about how quantifiable goals often lead to us being less happy than abstract ones. I highly recommend you read it, the author explains why far better than I ever could. I thought the book was really eye-opening, so I figure I might as well take its advice into action this year.</p>
+<p>Before I list them though, a little caveat (because I can be as long winded as I want because this is my blog): these goals are not quantifiable. I recently read a <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.ca/Subtle-Art-Not-Giving-Counterintuitive/dp/0062457713">pretty cool book</a> that talked about how quantifiable goals often lead to us being less happy than abstract ones. I highly recommend you read it, the author explains why far better than I ever could. I thought the book was really eye-opening, so I figure I might as well take its advice into action this year.</p>
 <h2 id="1-focus-more-on-creative-projects">1. Focus more on creative projects</h2>
-<p>Did you know I have a <a href="https://www.youtube.com/channel/UCSsuc-_8laUQrkabS1iIrXQ">youtube channel</a>? It&#39;s okay if you forgot, seems like I did too.</p>
+<p>Did you know I have a <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCSsuc-_8laUQrkabS1iIrXQ">youtube channel</a>? It&#39;s okay if you forgot, seems like I did too.</p>
            <div className="medium">
                 <img src ={NewYoutube} alt="an old youtube video" loading="lazy"/>
             </div>
@@ -108,7 +108,7 @@ const NewYearResolutions2022 = props => (
 <p>So yeah, those are my goals for the new year. Not much to do with my career, or school, but I think that&#39;s okay! There are more important things. </p>
 <p>And, real quick, I recognize there&#39;s a lot of privilege in saying all this. The person who&#39;s doing well with their school and career obviously can tell you that it doesn&#39;t matter and that they&#39;re prioritizing it less. It&#39;s like a millionaire telling you that money isn&#39;t everything - <em>screw you guy who has the thing telling me that the thing doesn&#39;t matter and i shouldn&#39;t want it, i want the thing</em>.</p>
 <p>But this isn&#39;t a self-help blog, it&#39;s <em>my</em> blog. This isn&#39;t for you, it&#39;s for me. The <em>next</em> blog I write might be for you, so go read that one, but this one is for me. And these are my resolutions.</p>
-<p>Check back next year to see if I follow through with them! In the meantime, you can keep up with me <a href="https://www.instagram.com/ethannomiddlenamelam/">here</a>, or <a href="https://www.youtube.com/channel/UCSsuc-_8laUQrkabS1iIrXQ">here</a>, or <a href="https://www.ethanlam.ca/">here</a>.</p>
+<p>Check back next year to see if I follow through with them! In the meantime, you can keep up with me <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ethannomiddlenamelam/">here</a>, or <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCSsuc-_8laUQrkabS1iIrXQ">here</a>, or <a target="_blank" rel="noopener noreferrer" href="https://www.ethanlam.ca/">here</a>.</p>
 <p>Here&#39;s to 2022. </p>
 
         </article>
