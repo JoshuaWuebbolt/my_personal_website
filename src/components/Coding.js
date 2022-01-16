@@ -13,7 +13,7 @@ const Coding = props => (
             <p>
                 Learning. Networking. Growing. You can do all of these at once on Baobab, a educational social media site built for entrepreneurs. 
                 We wrote a full stack web application with a built in educational system, including assignment deliverables, real-time discussion boards, and user profiles 
-                to encouerage networking. I worked as a full stack developer and founder, writing front-end and back-end code, and communicating with the product team to ensure 
+                to encourage networking. I worked as a full stack developer and founder, writing front-end and back-end code, and communicating with the product team to ensure 
                 the platform matched what our client wanted. Click the icon to check out our repo!
             </p>
         </div>
