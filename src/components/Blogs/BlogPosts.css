@@ -12,12 +12,22 @@ article p {
 .italics {
     font-style: italic;
 }
-article h1 {
+article h2, h3, h4 {
+    padding-top: 100px;
+    margin-top: -60px; 
     margin-bottom: 0px;
+    /* this is so anchor links aren't covered by the navbar */
 }
-article h2 {
-    margin-bottom: 0px;
+
+.content-area a {
+    color: #000;
+    text-decoration: none;
+    background-color: #E4F1E6;
 }
+.content-area a:hover {
+    background-color: #CAE3CD;
+}
+
 article .spacer {
     min-height: 10rem;
 }
@@ -28,38 +38,70 @@ article .tag {
     font-size: 0.9rem;
     border-bottom: 1px solid black;
 }
-@media screen and (min-width:700px) {
+
+.table-of-contents {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    width: 80vw;
+    background-color: white;
+    box-shadow: 0px 0px 10px lightgray;
+    padding: 30px;
+    border-radius: 30px;
+    list-style-type: none;
+}
+
+.table-of-contents li {
+        padding: 3px 0 3px 0;
+}
+
+@media screen and (min-width:1000px) {
+    .content-area {
+        width: 100vw; 
+        float: right; 
+        position: relative; 
+        display: flex;
+        justify-content: center;
+    }
     article {
-        display: grid;
-        grid-template-columns: 1fr 1fr 10px 700px 10px 1fr 1fr;
+        margin-right: 250px;
+        width: 700px;
+        display: flex;
+        flex-direction: column;
     }
-    article > * {
-        grid-column-start: 4;
-    }
+
     article img {
         object-fit: cover;
         width: 100%;
         max-height: 100%;
     }
     article .small {
-        grid-column-start: 3;
-        grid-column-end: 6;
+        width: 600px;
+        padding-left: 50px;
+        justify-self: center;
     }
-    article .medium {
-        grid-column-start: 2;
-        grid-column-end: 7;
-        
-    }
-    article .large {
-        grid-column-start: 1;
-        grid-column-end: 8;
-    }
+
     article {
         font-size: 1.2rem;
     }
+    .positioner {
+        position: absolute;
+    }
+    .fixed {
+        width: 250px; 
+        height: 100px; 
+        position: fixed; 
+        left: calc(50vw + 250px);
+        top: 80px; 
+    }
+    .table-of-contents {
+        font-size: 13px;
+        width: 200px;
+    }
+
+
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:1000px) {
     article {
         display: flex;
         flex-direction: column;

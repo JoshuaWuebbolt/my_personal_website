@@ -14,6 +14,28 @@ const ThingsILearned = props => (
                 <img src={Home} alt="go home" />
             </Link>
         </nav>
+ <div className="content-area">
+                <div className="positioner">
+                    <div className="fixed">
+                        <ul className="table-of-contents">
+                            <li>
+                                <a href="#">Jump to Top</a>
+                            </li>
+                            <li>
+                                <a href="#its-okay-to-be-sad">It’s Okay to be Sad</a>
+                            </li>
+                            <li>
+                                <a href="#in-the-meantime-take-care-of-yourself">In The Meantime, Take Care of Yourself</a>
+                            </li>
+                            <li>
+                                <a href="#also-your-professors-are-mostly-trying-to-help-you">Also, Your Professors Are (Mostly) Trying to Help You</a>
+                            </li>
+                            <li>
+                                <a href="#cherish-the-people-you-care-about">Cherish The People You Care About</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
         <article>
             <h1 id="things-i-learned-from-my-online-semester-during-the-end-of-the-world">Things I Learned From My Online Semester During The End of The World</h1>
             <span className="tag">Ethan Lam</span>
@@ -65,6 +87,7 @@ const ThingsILearned = props => (
             <p>thanks, <a href="https://www.instagram.com/ethannomiddlenamelam/">ethan</a>.</p>
             <div className="spacer"/>
         </article>
+    </div>
     </div>
 )
 export default ThingsILearned;

@@ -6,6 +6,7 @@ import MakingWebsites from "./Blogs/MakingWebsites";
 import CriticalReview from "./Blogs/CriticalReview";
 import ThingsILearned from "./Blogs/ThingsILearnedFromMyOnlineSemester";
 import NewYearResolutions2022 from "./Blogs/NewYearResolutions2022";
+import HowILandedASixFigure from "./Blogs/HowILandedASixFigure"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/blog/critical-review" component = {CriticalReview} exact/>
           <Route path="/blog/things-i-learned-from-my-online-semester" component = {ThingsILearned} exact/>
           <Route path="/blog/new-year-resolutions-2022" component = {NewYearResolutions2022} exact/>
+          <Route path="/blog/how-i-landed-a-six-figure" component = {HowILandedASixFigure} exact/>
         </Switch>
       </BrowserRouter>
     </div>
