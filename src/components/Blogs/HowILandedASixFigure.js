@@ -251,7 +251,7 @@ const MakingWebsites = props => (
             <div className="small">
                 <img src ={Dub} alt="Dub" loading="lazy"/>
             </div>
-            <p style={{fontSize:"12px", textAlign:"center"}}><em>pictired: two of the reasons for my ego</em></p>
+            <p style={{fontSize:"12px", textAlign:"center"}}><em>pictured: two of the reasons for my ego</em></p>
 
             <p>If you&#39;re struggling with finding projects to add to your resume, I CANNOT reccomend hackathons enough. Grab some friends, <a target="_blank" rel="noopener noreferrer" href="https://mlh.io">find some hackathons that seem cool</a>, drink a few gallons of caffeine, and crank something out to put on your resume. </p>
             <p>Another cool thing that happened in January was that I started getting more involved in clubs. I didn&#39;t join any as an exec/associate, but I started hanging out around some of UTM&#39;s club discord servers, and met some very awesome people (one of which ended up mentoring me through the internship process a few months later). </p>
