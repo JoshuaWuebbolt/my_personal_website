@@ -19,7 +19,7 @@ const ThingsILearned = props => (
                     <div className="fixed">
                         <ul className="table-of-contents">
                             <li>
-                                <a href="#">Jump to Top</a>
+                                <a href="/blog/things-i-learned-from-my-online-semester">Jump to Top</a>
                             </li>
                             <li>
                                 <a href="#its-okay-to-be-sad">It’s Okay to be Sad</a>

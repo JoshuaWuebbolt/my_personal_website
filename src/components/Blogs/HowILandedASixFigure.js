@@ -36,7 +36,7 @@ const MakingWebsites = props => (
             <div className="fixed">
                 <ul className="table-of-contents">
                     <li>
-                        <a href="#">Jump to Top</a>
+                        <a href="/blog/how-i-landed-a-six-figure">Jump to Top</a>
                     </li>
                     <li>
                         <a href="#my-offer">My Offer</a>
@@ -373,7 +373,7 @@ const MakingWebsites = props => (
             <div>
                 <img src ={WishResume} alt="wishr resume" loading="lazy"/>
             </div>
-            <p style={{fontSize:"12px", textAlign:"center"}}>😎</p>
+            <p style={{fontSize:"12px", textAlign:"center"}}>nice</p>
             
             <p><strong>1. Konrad</strong></p>
             <p>Someone from UTSG that I had met through doing MCSS things had interned with Konrad in the past, and he referred me to one of their recruiters. </p>

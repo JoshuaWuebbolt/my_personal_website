@@ -23,7 +23,7 @@ const NewYearResolutions2022 = props => (
                     <div className="fixed">
                         <ul className="table-of-contents">
                             <li>
-                                <a href="#">Jump to Top</a>
+                                <a href="/blog/new-year-resolutions-2022">Jump to Top</a>
                             </li>
                             <li>
                                 <a href="#thisyear">What I Did This Year</a>
