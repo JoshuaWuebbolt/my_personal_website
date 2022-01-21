@@ -11,14 +11,14 @@ const About = (props) => (
       </div>
       <p>
         Hey, thanks for stopping by! My name's Ethan, I'm a third year computer science student at the University of Toronto.
-        I'm currently interning at HSBC as a full stack developer, I'm the marketing director for the Mathematics and Computational
-        Society at UTM, and I'm a teaching assistant for MAT102, CSC207 and CSCC01!
+        I'm going to be working at Wish as a Software Engineer Intern this coming summer, I'm the marketing director for the Mathematics and Computational
+        Society at UTM, and I'm the head teaching assistant for CSC301!
         <br /> <br />
         I'm interested in music, rock climbing, kayaking, and solving problems with code.
         If you wanna talk to me about any of that, send me a message!
         <br />
         <br />
-        I'm currently seeking internships for Summer 2022, you can check out my résumé below, and scroll down to see all my projects:
+        You can check out my résumé below, and scroll down to see all my projects:
       </p>
       <div className="self-contact-info">
         <a href="https://www.instagram.com/ethannomiddlenamelam/" className="class-a" target="_blank" rel="noopener noreferrer">
