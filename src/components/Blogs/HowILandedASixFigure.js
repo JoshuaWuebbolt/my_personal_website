@@ -329,7 +329,7 @@ const MakingWebsites = props => (
             </div>
             <p style={{fontSize:"12px", textAlign:"center"}}><em>I think it&#39;s a decent pre-first internship resume, but it could definitely could use some work. what the hell is with those margins?</em></p>
             
-            <p>Aaaand then I got a litttle bit greedy. their offer was around $20/21 an hour, and I knew that other banks were offering closer to $25. I wouldn&#39;t say I recommend this, but I ended up responding to their offer with a counteroffer that was closer to $23 an hour. If you&#39;re curious what the negotiation email looked like, it essentially looked like:</p>
+            <p>Aaaand then I got a litttle bit greedy. their offer was around $20/21 an hour, and I knew that other banks were offering closer to $25. I wouldn&#39;t say I recommend this, but I ended up responding to their offer with a counteroffer that was closer to $23 an hour.</p>
            <p>Looking back, I probably wouldn&#39;t have do this again. I&#39;ve almost never heard of anyone losing an offer from negotiating, generally the worst thing they&#39;ll say is <em>no</em>. But, the extra <em>$2</em> an hour really didn&#39;t amount to much over 4 months. Plus, I really was in no position to negotiate anything, considering I had <em>no</em> experience at the time AND I didn&#39;t even have a <em>phone call</em> from any other company. I won&#39;t lie, this was mostly an ego-driven decision.</p>
             <p>However, it actually paid off! They accepted my counteroffer, and I was a go for Fall 2021. </p>
             <p>So yeah. Crazy summer.</p>
