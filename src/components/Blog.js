@@ -13,6 +13,15 @@ const Blog = (props) => (
       </Link>
     </nav>
     <ul className="blog-list">
+      <Link to="/blog/things-i-like"> 
+        <div className ="blogpost-area">
+          <span className="date">Mar 1st, 2022</span>
+          <h1 className="title">(An Incomplete List Of) Things I Like</h1>
+          <span className="length"><i>Length: ~10min</i></span>
+          <br></br>
+          <span>Ethan Lam</span>
+        </div>
+      </Link>
       <Link to="/blog/how-i-landed-a-six-figure"> 
         <div className ="blogpost-area">
           <span className="date">Jan 20. 2022</span>

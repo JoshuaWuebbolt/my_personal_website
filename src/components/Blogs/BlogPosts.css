@@ -28,6 +28,13 @@ article h2, h3, h4 {
     background-color: #CAE3CD;
 }
 
+blockquote {
+    border-left: 10px solid #E4F1E6;
+    padding-left: 20px;
+    align-self: left;
+    font-style: italic;
+}
+
 article .spacer {
     min-height: 10rem;
 }

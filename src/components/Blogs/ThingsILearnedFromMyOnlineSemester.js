@@ -15,7 +15,11 @@ const ThingsILearned = props => (
             </Link>
         </nav>
  <div className="content-area">
-                <div className="positioner">
+
+        <article>
+            <h1 id="things-i-learned-from-my-online-semester-during-the-end-of-the-world">Things I Learned From My Online Semester During The End of The World</h1>
+            <span className="tag">Ethan Lam</span>
+                            <div className="positioner">
                     <div className="fixed">
                         <ul className="table-of-contents">
                             <li>
@@ -36,9 +40,6 @@ const ThingsILearned = props => (
                         </ul>
                     </div>
                 </div>
-        <article>
-            <h1 id="things-i-learned-from-my-online-semester-during-the-end-of-the-world">Things I Learned From My Online Semester During The End of The World</h1>
-            <span className="tag">Ethan Lam</span>
             <p>So, the plague came back this year.</p>
             <p>Also, wildfires. And botched missile operations. Racism (although that’s not exactly new). Oh, and has anyone heard anything about the killer hornets recently? Did we all just <em>forget</em> about those or are those going to be the secret final boss of 2020?</p>
             <p>Anyways, somehow in the midst of this we were still expected to perform academically? Wild. Here are four things I learned that helped me out throughout this cursed, godforsaken, lonely, absolutely ridiculously dif-</p>
