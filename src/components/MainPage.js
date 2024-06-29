@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import About from "./About";
 import Coding from "./Coding";
-import Music from "./Music";
+import Urbanism from "./Urbanism";
 import Videos from "./Videos";
 import Other from "./Other";
 import "../styles/MainPage.css"
@@ -21,7 +21,7 @@ const MainPage = (props) => {
           <About/>
           <Coding />
           <Videos />
-          <Music />
+          <Urbanism />
           <Other />
           <Footer/>
         </div>
