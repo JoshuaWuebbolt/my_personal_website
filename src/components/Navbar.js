@@ -11,7 +11,7 @@ function NavBar(props) {
 
     return <nav className="nav-bar" >
       
-            <button className="home" onClick={scrollToTop}><h2>Ethan Lam</h2></button>
+            <button className="home" onClick={scrollToTop}><h2>Joshua Wuebbolt</h2></button>
             <div className="mobile"></div>
             
             <Link to={"about-section"} smooth={true} duration={1000} offset={-50} className="desktop">About</Link>
