@@ -22,11 +22,11 @@ const About = (props) => (
         You can check out my résumé below, and scroll down to see all my projects:
       </p>
       <div className="self-contact-info">
-        <a href="https://www.instagram.com/ethannomiddlenamelam/" className="class-a" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/joshuajudewuebbolt/" className="class-a" target="_blank" rel="noopener noreferrer">
           <img src="assets/instagram.png" alt="follow me" />
         </a>
         <br />
-        <a href="https://twitter.com/ethannmnlam" className="class-b">
+        <a href="https://github.com/JoshuaWuebbolt" className="class-b" target="_blank" rel="noopener noreferrer">
           <img src="assets/twitter.png" alt="follow me" />
         </a>
         <br />
@@ -34,14 +34,14 @@ const About = (props) => (
           <img src="assets/youtube.png" alt="subscribe!" />
         </a>
         <br />
-        <a href="https://www.linkedin.com/in/ethan-lam-b19529193/" className="class-d" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/joshua-wuebbolt-b5625a314/" className="class-d" target="_blank" rel="noopener noreferrer">
           <img src="assets/linkedin.png" alt="please give me a job" />
         </a>
       </div>
     </div>
     <div className="resume-area">
       <div className="invisible-spacer" />
-      <a href="Ethan_Lam_Resume.pdf" target="_blank" rel="noopener noreferrer">
+      <a href="Joshua_Wuebbolt_resume.pdf" target="_blank" rel="noopener noreferrer">
         <button type="button">Résumé</button>
       </a>
     </div>
