@@ -6,15 +6,17 @@ const Coding = props => (
         <h1>Coding</h1>
         <span>Click the icons to see more!</span>
         <div className="coding1">
-            <a href="https://github.com/Fifth-Order-Ignorant/Baobab" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/JoshuaWuebbolt/Streamer" target="_blank" rel="noopener noreferrer">
 
-                <img src="assets/baobab.jpg" alt="baobab logo"></img>
+                <img src="assets/streamer.jpeg" alt="baobab logo"></img>
             </a>
             <p>
-                Learning. Networking. Growing. You can do all of these at once on Baobab, a educational social media site built for entrepreneurs. 
-                We wrote a full stack web application with a built in educational system, including assignment deliverables, real-time discussion boards, and user profiles 
-                to encourage networking. I worked as a full stack developer and founder, writing front-end and back-end code, and communicating with the product team to ensure 
-                the platform matched what our client wanted. Click the icon to check out our repo!
+                Streamer allows user to stream and download music from a server. I programmed both
+                client and server side using C and making use of makefiles to compile code. The server
+                can connect to multiple clients and stream at a maximum speed of 20MB/s. The server side
+                can request songs in the server's library to download or stream. A circular buffer is
+                used to maximize space and speed efficiency. Although made for music files, any file type
+                can transfered between the server and the client.
             </p>
         </div>
         <div className="coding1">

@@ -4,12 +4,7 @@ import "../styles/Footer.css"
 const Footer = props => (
     <div className= "footer-body">
         <p>
-            © Ethan Lam
-        </p>
-        <p>
-            <a href="https://instagram.com/ethannomiddlenamelam">
-                follow me on instagram follow me on instagram follow me on instagram follow me on instagram follow me on instagram follow me on instagram 
-            </a>
+            © Joshua Wuebbolt
         </p>
     </div>
 )
