@@ -5,7 +5,6 @@ import About from "./About";
 import Coding from "./Coding";
 import Urbanism from "./Urbanism";
 import MCSS from "./MCSS";
-import Videos from "./Videos";
 import Other from "./Other";
 import "../styles/MainPage.css"
 import Sidebar from "./Sidebar";
@@ -22,7 +21,6 @@ const MainPage = (props) => {
           <About/>
           <Coding />
           <MCSS/>
-          <Videos />
           <Urbanism />
           <Other />
           <Footer/>
