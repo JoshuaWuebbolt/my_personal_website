@@ -24,7 +24,7 @@ function Sidebar(props) {
             <Link to={"about-section"} smooth={true} duration={1000} offset={-50} onClick={triggerSidebar}>About</Link>
             <Link to={"coding-section"} smooth={true} duration={1000} offset={-50} onClick={triggerSidebar}>Coding</Link>
             <Link to={"urbanism-section"} smooth={true} duration={1000} offset={-50} onClick={triggerSidebar}>Urbanism</Link>
-            <Link to={"video-section"} smooth={true} duration={1000} offset={-50} onClick={triggerSidebar}>Videos</Link>
+            <Link to={"MCSS-section"} smooth={true} duration={1000} offset={-50} onClick={triggerSidebar}>MCSS</Link>
             <Link to={"other-section"} smooth={true} duration={1000} offset={-50} onClick={triggerSidebar}>Other</Link>
 
             <Direct onClick={toggleLock} to="/blog" >Blog</Direct>
