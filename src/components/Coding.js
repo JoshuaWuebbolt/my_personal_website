@@ -51,36 +51,26 @@ const Coding = props => (
             </p>
         </div>
         <div className="coding1">
-            <a href="https://devpost.com/software/operation-guesser" target="_blank" rel="noopener noreferrer">
+            <a href="https://devpost.com/software/waste-watchers-6g3kbe" target="_blank" rel="noopener noreferrer">
 
-                <img src="assets/Basic_arithmetic_operators.png" alt="math symbols"></img>
+                <img src="assets/waste_watchers.jpeg" alt="Waste Watchers"></img>
             </a>
             <p>
-                This was a project designed by me and two friends for UTM's PyJaC competition. On the front end, it's a math game. On the back end, 
-                it's an algorithm that can guess mathematical operations given a set of numbers. I used dynamic programming to optimize our backend, contributed
-                to our front end, and presented the code on competition day. We ended up winning in our category! Click the image to check out our devpost
-                page. 
+                This was a project I made with a friend for Hacknado. The goal was to create a program that would help people reduce their waste
+                by itendifying their waste and providing information on where it should go (recycling, compost, garbage). For example if you were throwing out
+                a banna peel the website would tell you to first take off any sticker on the fruit and to put it in the recycling and then to place the bannana
+                peel in the compost. Through this website we aimed to reduce the amount of waste that goes to the landfill and to help people understand
+                how to properly dispose of their waste.
             </p>
         </div>
         <div className="coding1">
-            <a href="https://github.com/EthanLam1/my_website" target="_blank" rel="noopener noreferrer">
-                <img src="assets/website.png" alt="do it"></img>
+            <a href="https://github.com/JoshuaWuebbolt/my_personal_website" target="_blank" rel="noopener noreferrer">
+                <img src="assets\favico.jpg" alt="My website :)"></img>
             </a>
             <p> 
                 <i>Breathtaking. Flawless. An absolute masterpiece. </i>
                 <br></br>
-                These are just some of the words I've used to describe my very own website. I created this as an excuse to teach myself React.js and so I have a place to put my portfolio, personal projects, contact information, and pretty much anything cool I do. Click the image to check out the repository on github.
-            </p>
-        </div>
-        <div className="coding1">
-            <a href="https://github.com/nigow/TradingSystem" target="_blank" rel="noopener noreferrer">
-                <img src="assets/trading.png" alt="trading interface menu"></img>
-            </a>
-            <p>
-                <i>Think Amazon mixed with Uber mixed with a municipal library system. </i>
-                <br></br>
-                This was a large-scale trading platform created by me and my friends for UofT's CSC207 culminating project. Users can create accounts, put items up for trading, and trade items with other people. The program runs off of a database,
-                and can support multiple users trading items in real time. Click the icon to check out our repository. 
+                These are just some of the words I've used to describe my very own website. I built this website to show off all the cool projects I've done and to just show off a little bit. I got to familiarize myself with React and node.js and brush up on my HTML and CSS skills. I hope you enjoy my website! :)
             </p>
         </div>
 

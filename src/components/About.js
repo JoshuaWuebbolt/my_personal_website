@@ -19,15 +19,15 @@ const About = (props) => (
       </p>
       <div className="self-contact-info">
         <a href="https://www.instagram.com/joshuajudewuebbolt/" className="class-a" target="_blank" rel="noopener noreferrer">
-          <img src="assets/instagram.png" alt="follow me" />
+          <img src="assets/instagram.png" alt="Follow me!" />
         </a>
         <br />
         <a href="https://github.com/JoshuaWuebbolt" className="class-b" target="_blank" rel="noopener noreferrer">
-          <img src="assets/github.png" alt="follow me" />
+          <img src="assets/github.png" alt="View my projects!" />
         </a>
         <br />
-        <a href="https://www.youtube.com/channel/UCSsuc-_8laUQrkabS1iIrXQ?view_as=subscriber" className="class-c" target="_blank" rel="noopener noreferrer">
-          <img src="assets/youtube.png" alt="subscribe!" />
+        <a href="mailto:joshua.wuebbolt@mail.utoronto.ca" className="class-c" target="_blank" rel="noopener noreferrer">
+          <img src="assets/email.png" alt="Contact me!" />
         </a>
         <br />
         <a href="https://www.linkedin.com/in/joshua-wuebbolt-b5625a314/" className="class-d" target="_blank" rel="noopener noreferrer">
