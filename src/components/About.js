@@ -4,7 +4,7 @@ import "../styles/About.css";
 const About = (props) => (
   <div className="about-section" id="about-section">
     <h1>About Me</h1>
-    <span>This is real, this is me, I'm exa-</span>
+    <span>I can't wait to change the world!</span>
     <div className="about-info" >
       <div className="image-area">
         <img src="assets/about.jpg" alt="yeet" />
