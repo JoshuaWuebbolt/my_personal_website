@@ -8,7 +8,7 @@ const Coding = props => (
         <div className="coding1">
             <a href="https://github.com/JoshuaWuebbolt/Streamer" target="_blank" rel="noopener noreferrer">
 
-                <img src="assets/streamer.jpeg" alt="baobab logo"></img>
+                <img src="assets/streamer.jpeg" alt="Streamer Logo"></img>
             </a>
             <p>
                 Streamer allows user to stream and download music from a server. I programmed both
@@ -20,25 +20,34 @@ const Coding = props => (
             </p>
         </div>
         <div className="coding1">
-            <a href="https://devpost.com/software/lectern-hezyqc" target="_blank" rel="noopener noreferrer">
+            <a href="https://mcsscm.utm.utoronto.ca/csc207_20239/group_90" target="_blank" rel="noopener noreferrer">
 
-                <img src="assets/lectern.jpeg" alt="lectern symbol"></img>
+                <img src="assets/The_Great_Adventure.png" alt="The Great Adventure Screenshot"></img>
             </a>
             <p>
-                Learning shouldn't be confined by borders. We utilized blockchain technology to create our own cryptocurrency that can be used by students and tutors on our 
-                very own e-learning platform, which was created as a project for TOHacks 2021! I coded the cryptocurrency, and used chakra-ui to create a responsive and 
-                dynamic site. Click the image to check out our devpost page!
+                Working as a group is a necessary skill for developers. While developing this dungen crawler game in Java, I acted as
+                the scrum master and lead programmer. Through various scrum meetings where we discussed which feature to impliment, who would 
+                program them, estimate for how long the feature would take to program, and how to test the feature, we were able to create a fully
+                functional game with features such as accessibility options for the visually impaired and those hard of hearing. As well as game play
+                features such as a shop, inventory, a minimap, and a save/load feature.
             </p>
         </div>
         <div className="coding1">
-            <a href="https://devpost.com/software/track-19-sczex8" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/JoshuaWuebbolt" target="_blank" rel="noopener noreferrer">
 
-                <img src="assets/track19.jpg" alt="track-19 symbol"></img>
+                <img src="assets/omaTV.jpeg" alt="OmaTV Logo"></img>
             </a>
             <p>
-                TLDR: Ontario's covid reponse app was so bad, even a group of kids competing in UTM's Hack The Case Hackathon/Case Competition hybrid could write a better one 
-                in three days. We used Next.js for the front end, and firebase for the back end. My focus was on the front end and presentation. We ended up taking home first place! 
-                Click the image to check out our devpost page.
+                Whenever I see a problem I try to think of how I can code a solution. My Oma (German for Grandmother) pays $117 a month for cable and it
+                is riddled with ads. Of course it would be great to just get her a subscription to Netflix or some other streaming service, but
+                she has trouble with technology and doesn't want to learn a new system. This is why I am developing OmaTV. A streaming service with
+                an interface that emulates cable TV. You can scroll through channels each with a different show playing. One channel may be the 
+                Jepordy channel, antoher a movie channel with hallmark movies and another a news channel. All your Oma (or grandmother) has to know
+                to enjoy all her favorite movies and shows is how to change the channel.
+                <br></br>
+                <br></br>
+                To add on to this project I am currently pitching a similar idea to all the major streaming services (Netflix, Disney+, Amazon Prime, etc.)
+                for a "Cable Mode" which will work in the same way as OmaTV but with all the shows and movies from the streaming service.
             </p>
         </div>
         <div className="coding1">
