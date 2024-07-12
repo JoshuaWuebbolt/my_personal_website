@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import About from "./About";
 import Coding from "./Coding";
 import Urbanism from "./Urbanism";
+import MCSS from "./MCSS";
 import Videos from "./Videos";
 import Other from "./Other";
 import "../styles/MainPage.css"
@@ -20,6 +21,7 @@ const MainPage = (props) => {
         <div className="main-content">
           <About/>
           <Coding />
+          <MCSS/>
           <Videos />
           <Urbanism />
           <Other />

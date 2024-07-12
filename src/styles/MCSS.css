@@ -1,0 +1,103 @@
+.MCSS-section {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 100vw;
+  }
+
+  .MCSS-section h1 {
+    padding-left: 1rem;
+    margin-bottom: 0;
+  }
+  .MCSS-section span {
+    margin-left: 1rem;
+  }
+
+  @media screen and (min-width: 900px) {
+  .MCSS-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+  }
+  .MCSS-image-area img {
+    border-radius: 0%;
+    width: 22rem;
+    height: 16rem;
+  }
+  .MCSS-deerhacks-image-area img{
+    border-radius: 0%;
+    width: 11rem;
+    height: 8rem;
+  }
+  .MCSS-section p {
+    margin: 1rem;
+    border-left: 1px solid black;
+  }
+  .MCSS-contact-info {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly
+  }
+  .MCSS-contact-info img {
+    max-width: 3rem;
+    max-height: 3rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .MCSS-info {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .MCSS-image-area img {
+    border-radius: 50%;
+    max-width: 75vw;
+    max-height: 75vw;
+    padding: 1rem;
+    padding-bottom: 0;
+  }
+  .MCSS-deerhacks-image-area img{
+    border-radius: 50%;
+    max-width: 35vw;
+    max-height: 35vw;
+    padding: 1rem;
+    padding-bottom: 0;
+  }
+  .MCSS-image-area {
+    padding: 0.5rem;
+  }
+  .MCSS-deerhacks-image-area {
+    padding: 0.5rem;
+  }
+  .MCSS-section p {
+    border-top: 1px solid black;
+    max-width: 75vw;
+    padding-bottom: 0rem;
+  }
+  .MCSS-contact-info {
+    display: flex;
+  }
+  .MCSS-contact-info img {
+    margin: 1rem;
+    max-width: 10vw;
+    max-height: 10vw;
+  }
+}
+.MCSS-image-area {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.MCSS-deerHacks-image-area {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+.MCSS-image-and-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
