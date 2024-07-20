@@ -5,7 +5,7 @@ import About from "./About";
 import Coding from "./Coding";
 import Urbanism from "./Urbanism";
 import MCSS from "./MCSS";
-// import fun-facts from "./fun-facts";
+import FunFacts from "./FunFacts";
 import "../styles/MainPage.css"
 import Sidebar from "./Sidebar";
 import Footer from "./Footer"
@@ -22,7 +22,7 @@ const MainPage = (props) => {
           <Coding />
           <MCSS/>
           <Urbanism />
-          {/* <fun-facts/> */}
+          <FunFacts/>
           <Footer/>
         </div>
         <div className="spacer"/>
