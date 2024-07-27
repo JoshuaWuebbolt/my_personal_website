@@ -6,24 +6,107 @@ const FunFacts = props => (
         <h1>FunFacts</h1>
         <span>Fun facts about me!</span>
 
-        {/* Try 2 */}
-        <section class="container">
-            <p class="loop-text-first">his is conttinuous text</p>
-            <p class="loop-text-first">this is continuous text</p>
-            <p class="loop-text-first">this is continuous text</p>
-        </section>
-        
-        <section class="container">
-            <p class="loop-text-second">this 2 is continuous text</p>
-            <p class="loop-text-second">this 2 is continuous text</p>
-            <p class="loop-text-second">this 2 is continuous text</p>
-        </section>
-
-        <section class="container">
-            <p class="loop-text-third">this is continuous text 3</p>
-            <p class="loop-text-third">this is continuous text 3</p>
-            <p class="loop-text-third">this is continuous text 3</p>
-        </section>
+        <div id="scroll-container">
+            <div id="scroll-text">
+                I held a world record for 2 weeks<br></br><br></br>
+                I can make an Ethernet cable from scratch, the longest one I made was 60 metres (about 200ft)<br></br><br></br>
+                I've compleated The Legend of Zelda: Ocarina of Time<br></br><br></br>
+                I absolutely hate kinddom hearts<br></br><br></br>
+                I can hold my breath for 2 minuets 46 seconds<br></br><br></br>
+                I have never flown on a plane<br></br><br></br>
+                I held a world record for 2 weeks<br></br><br></br>
+                I can make an Ethernet cable from scratch, the longest one I made was 60 metres (about 200ft)<br></br><br></br>
+                I've compleated The Legend of Zelda: Ocarina of Time<br></br><br></br>
+                I absolutely hate kinddom hearts<br></br><br></br>
+                I can hold my breath for 2 minuets 46 seconds<br></br><br></br>
+                I have never flown on a plane<br></br><br></br>
+                I held a world record for 2 weeks<br></br><br></br>
+                I can make an Ethernet cable from scratch, the longest one I made was 60 metres (about 200ft)<br></br><br></br>
+                I've compleated The Legend of Zelda: Ocarina of Time<br></br><br></br>
+                I absolutely hate kinddom hearts<br></br><br></br>
+                I can hold my breath for 2 minuets 46 seconds<br></br><br></br>
+                I have never flown on a plane<br></br><br></br>
+                I held a world record for 2 weeks<br></br><br></br>
+                I can make an Ethernet cable from scratch, the longest one I made was 60 metres (about 200ft)<br></br><br></br>
+                I've compleated The Legend of Zelda: Ocarina of Time<br></br><br></br>
+                I absolutely hate kinddom hearts<br></br><br></br>
+                I can hold my breath for 2 minuets 46 seconds<br></br><br></br>
+                I have never flown on a plane<br></br><br></br>
+                I held a world record for 2 weeks<br></br><br></br>
+                I can make an Ethernet cable from scratch, the longest one I made was 60 metres (about 200ft)<br></br><br></br>
+                I've compleated The Legend of Zelda: Ocarina of Time<br></br><br></br>
+                I absolutely hate kinddom hearts<br></br><br></br>
+                I can hold my breath for 2 minuets 46 seconds<br></br><br></br>
+                I have never flown on a plane<br></br><br></br>
+                I held a world record for 2 weeks<br></br><br></br>
+                I can make an Ethernet cable from scratch, the longest one I made was 60 metres (about 200ft)<br></br><br></br>
+                I've compleated The Legend of Zelda: Ocarina of Time<br></br><br></br>
+                I absolutely hate kinddom hearts<br></br><br></br>
+                I can hold my breath for 2 minuets 46 seconds<br></br><br></br>
+                I have never flown on a plane<br></br><br></br>
+                I held a world record for 2 weeks<br></br><br></br>
+                I can make an Ethernet cable from scratch, the longest one I made was 60 metres (about 200ft)<br></br><br></br>
+                I've compleated The Legend of Zelda: Ocarina of Time<br></br><br></br>
+                I absolutely hate kinddom hearts<br></br><br></br>
+                I can hold my breath for 2 minuets 46 seconds<br></br><br></br>
+                I have never flown on a plane<br></br><br></br>
+                I held a world record for 2 weeks<br></br><br></br>
+                I can make an Ethernet cable from scratch, the longest one I made was 60 metres (about 200ft)<br></br><br></br>
+                I've compleated The Legend of Zelda: Ocarina of Time<br></br><br></br>
+                I absolutely hate kinddom hearts<br></br><br></br>
+                I can hold my breath for 2 minuets 46 seconds<br></br><br></br>
+                I have never flown on a plane<br></br><br></br>
+                I held a world record for 2 weeks<br></br><br></br>
+                I can make an Ethernet cable from scratch, the longest one I made was 60 metres (about 200ft)<br></br><br></br>
+                I've compleated The Legend of Zelda: Ocarina of Time<br></br><br></br>
+                I absolutely hate kinddom hearts<br></br><br></br>
+                I can hold my breath for 2 minuets 46 seconds<br></br><br></br>
+                I have never flown on a plane<br></br><br></br>
+                I held a world record for 2 weeks<br></br><br></br>
+                I can make an Ethernet cable from scratch, the longest one I made was 60 metres (about 200ft)<br></br><br></br>
+                I've compleated The Legend of Zelda: Ocarina of Time<br></br><br></br>
+                I absolutely hate kinddom hearts<br></br><br></br>
+                I can hold my breath for 2 minuets 46 seconds<br></br><br></br>
+                I have never flown on a plane<br></br><br></br>
+                I held a world record for 2 weeks<br></br><br></br>
+                I can make an Ethernet cable from scratch, the longest one I made was 60 metres (about 200ft)<br></br><br></br>
+                I've compleated The Legend of Zelda: Ocarina of Time<br></br><br></br>
+                I absolutely hate kinddom hearts<br></br><br></br>
+                I can hold my breath for 2 minuets 46 seconds<br></br><br></br>
+                I have never flown on a plane<br></br><br></br>
+                I held a world record for 2 weeks<br></br><br></br>
+                I can make an Ethernet cable from scratch, the longest one I made was 60 metres (about 200ft)<br></br><br></br>
+                I've compleated The Legend of Zelda: Ocarina of Time<br></br><br></br>
+                I absolutely hate kinddom hearts<br></br><br></br>
+                I can hold my breath for 2 minuets 46 seconds<br></br><br></br>
+                I have never flown on a plane<br></br><br></br>
+                I held a world record for 2 weeks<br></br><br></br>
+                I can make an Ethernet cable from scratch, the longest one I made was 60 metres (about 200ft)<br></br><br></br>
+                I've compleated The Legend of Zelda: Ocarina of Time<br></br><br></br>
+                I absolutely hate kinddom hearts<br></br><br></br>
+                I can hold my breath for 2 minuets 46 seconds<br></br><br></br>
+                I have never flown on a plane<br></br><br></br>
+                I held a world record for 2 weeks<br></br><br></br>
+                I can make an Ethernet cable from scratch, the longest one I made was 60 metres (about 200ft)<br></br><br></br>
+                I've compleated The Legend of Zelda: Ocarina of Time<br></br><br></br>
+                I absolutely hate kinddom hearts<br></br><br></br>
+                I can hold my breath for 2 minuets 46 seconds<br></br><br></br>
+                I have never flown on a plane<br></br><br></br>
+                I held a world record for 2 weeks<br></br><br></br>
+                I can make an Ethernet cable from scratch, the longest one I made was 60 metres (about 200ft)<br></br><br></br>
+                I've compleated The Legend of Zelda: Ocarina of Time<br></br><br></br>
+                I absolutely hate kinddom hearts<br></br><br></br>
+                I can hold my breath for 2 minuets 46 seconds<br></br><br></br>
+                I have never flown on a plane<br></br><br></br>
+                I held a world record for 2 weeks<br></br><br></br>
+                I can make an Ethernet cable from scratch, the longest one I made was 60 metres (about 200ft)<br></br><br></br>
+                I've compleated The Legend of Zelda: Ocarina of Time<br></br><br></br>
+                I absolutely hate kinddom hearts<br></br><br></br>
+                I can hold my breath for 2 minuets 46 seconds<br></br><br></br>
+                I have never flown on a plane<br></br><br></br>
+            </div>
+            
+        </div>
 
         <p>test</p>
     </div>
