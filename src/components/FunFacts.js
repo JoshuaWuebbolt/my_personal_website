@@ -107,8 +107,6 @@ const FunFacts = props => (
             </div>
             
         </div>
-
-        <p>test</p>
     </div>
 );
 
