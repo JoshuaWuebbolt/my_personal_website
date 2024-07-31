@@ -18,7 +18,7 @@ function NavBar(props) {
             <Link to={"coding-section"} smooth={true} duration={1000} offset={-50} className="desktop">Coding</Link>
             <Link to={"MCSS-section"} smooth={true} duration={1000} offset={-50} className="desktop">MCSS</Link>
             <Link to={"urbanism-section"} smooth={true} duration={1000} offset={-50} className="desktop">Urbanism</Link>
-            <Link to={"fun-facts-section"} smooth={true} duration={1000} offset={-50} className="desktop">Fun Facts (WIP)</Link>
+            <Link to={"FunFacts-section"} smooth={true} duration={1000} offset={-50} className="desktop">Fun Facts</Link>
             <Direct to="/blog" className="desktop">Blog</Direct>
 
             
