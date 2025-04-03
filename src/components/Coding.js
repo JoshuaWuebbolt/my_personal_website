@@ -68,9 +68,9 @@ const Coding = props => (
                 <img src="assets\favico.jpg" alt="My website :)"></img>
             </a>
             <p> 
-                <i>Breathtaking. Flawless. An absolute masterpiece. </i>
+                
                 <br></br>
-                These are just some of the words I've used to describe my very own website. I built this website to show off all the cool projects I've done and to just show off a little bit. I got to familiarize myself with React and node.js and brush up on my HTML and CSS skills. I hope you enjoy my website! :)
+                I made this website to show off my projects and to help me learn React. I use it to show off my projects and anything else that I do that I think might be website worthy!<br></br><br></br>
             </p>
         </div>
 
