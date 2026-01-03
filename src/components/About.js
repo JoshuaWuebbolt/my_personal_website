@@ -10,9 +10,9 @@ const About = (props) => (
         <img src="assets/about.jpg" alt="yeet" />
       </div>
       <p>
-        Hey, how's it going? My name is Joshua and I'm a student at UofT (University of Toronto). I'm studying Computer Science and have a passion for creating program to fix problems and have fun! From streaming services to videogames I make it all.
+        Hey, how's it going? My name is Joshua and I'm a student at UofT (University of Toronto). I'm studying Computer Science and have a passion for creating programs to fix problems and have fun! From AI teaching assistants to videogames I make it all.
         <br /> <br />
-        I'm also very big into Urbanism and actually created an anvocacy group for it. If you wanna talk about walkable cites, public transport or even just the latest Not Just Bikes video I'm all ears.
+        I'm also very passionate about Urbanism and actually created an anvocacy group for it. If you wanna talk about walkable cites, public transport or even just the latest Not Just Bikes video I'm all ears.
         <br />
         <br />
         You can check out my résumé below, and scroll down to learn all about me!

@@ -29,11 +29,11 @@ const MCSS = props => (
             </div>
 
             <p> 
-                I've been involved with the Mathematical & Computational Sciences Society (MCSS) since my first year at UTM. I am now a part of the <b>MCSS executive team</b>.
+                I have been part of the Mathematical & Computational Sciences Society (MCSS) since my first year at UTM and have been a member of the <b>MCSS executive team</b> for 2 years.
                 <br />
                 MCSS is a student-run organization that represents all students in the Mathematical & Computational Sciences department at UTM. We host a variety of events throughout the year, including <b>academic seminars</b>, social events, and <b>professional development workshops</b>. 
                 <br />
-                The most impressive event is <b>DeerHacks</b>. A 3 day long hackathon hosted by MCSS that last year had <b>over 300 participants</b>. With sponsers such
+                MCSS's most impressive event is <b>DeerHacks</b>. A 3 day long hackathon hosted by MCSS that last year had <b>over 300 participants</b>. With sponsers such
                 as <b>Uber</b>, <b>Amazon</b>, the <b>University of Toronto</b>, <b>MLH (Major League Hacking)</b>, and more!
             </p>
 

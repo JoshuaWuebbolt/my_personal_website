@@ -27,7 +27,7 @@ const Urbanism = props => (
             </div>
 
             <p> 
-                I've been intereted in Urbanism for years and in 2023 me and three other students go togeather to create <b>UTM Urbanism</b>. From just the four of us we have grown to over <b>200 members</b>!
+                Urbanism is a passion of mine so in 2023 I co-founded <b>UTM Urbanism</b> a university club at UofT with over 400 members!
                 <br />
                 We are active in our local municipality and have been able to make a difference. Through advocasy we pushed Mississauga City Council to add an express bus that will run along a major transit corridor to the UTM Campus.
                 <br />
