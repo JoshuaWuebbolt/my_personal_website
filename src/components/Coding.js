@@ -7,7 +7,25 @@ const Coding = props => (
         <span>Click the icons to see more!</span>
 
         <div className="coding1">
-            
+            <h3>Global City Data Pipeline for Urban Planning</h3>
+            <a href="https://www.miretaurban.com/about" target="_blank" rel="noopener noreferrer">
+                <img src="assets/gcdpup.png" alt="Global City Data Pipeline for Urban Planning"></img>
+            </a>
+            <p>
+                Global City Data Pipeline for Urban Planning (GCDPUP) is a browser-based interactive mapping platform developed in <b>partnership with Mireta Urban Dynamics</b>, 
+                a leading biology-inspired urban design firm. The platform consolidates fragmented urban planning data into a unified visualization tool, allowing planners to search any city 
+                worldwide and toggle data layers including roads, transit, water bodies, and points of interest.
+                <br></br>
+                <br></br>
+                As a <b>Full-Stack Developer</b>, I had the privilege of leading development on critical data visualization components. I specifically developed the <b>Population Density data layer </b> 
+                and the <b>Land Use data layer</b>, implementing complex geospatial rendering using D3.js and handling large-scale geographical datasets. Additionally, I designed and built the <b>landing page</b>, 
+                crafting a professional user experience that introduces urban planners to the platform's capabilities. The project utilizes <b>React</b>, <b>TypeScript</b>, <b>Python FastAPI</b>, and <b>PostGIS </b> 
+                for geospatial data management.
+            </p>
+        </div>
+
+        <div className="coding1">
+            <h3>Vamsi</h3>
             <a href="https://github.com/JoshuaWuebbolt/vamsi" target="_blank" rel="noopener noreferrer">
                 <img src="assets/vamsi.png" alt="Vamsi"></img>
             </a>
@@ -25,7 +43,7 @@ const Coding = props => (
         </div>
 
         <div className="coding1">
-            
+            <h3>Stock Charity</h3>
             <a href="https://github.com/utmgdsc/StockCharity" target="_blank" rel="noopener noreferrer">
                 <img src="assets/stockCharity.svg" alt="Stock Charity Logo"></img>
             </a>
@@ -43,6 +61,7 @@ const Coding = props => (
         </div>
 
         <div className="coding1">
+            <h3>Streamer</h3>
             <a href="https://github.com/JoshuaWuebbolt/Streamer" target="_blank" rel="noopener noreferrer">
 
                 <img src="assets/streamer.jpeg" alt="Streamer Logo"></img>
@@ -57,6 +76,7 @@ const Coding = props => (
             </p>
         </div>
         <div className="coding1">
+            <h3>The Great Adventure</h3>
             <a href="https://mcsscm.utm.utoronto.ca/csc207_20239/group_90" target="_blank" rel="noopener noreferrer">
 
                 <img src="assets/The_Great_Adventure.png" alt="The Great Adventure Screenshot"></img>
@@ -88,6 +108,7 @@ const Coding = props => (
             </p>
         </div> */}
         <div className="coding1">
+            <h3>Waste Watchers</h3>
             <a href="https://devpost.com/software/waste-watchers-6g3kbe" target="_blank" rel="noopener noreferrer">
 
                 <img src="assets/waste_watchers.jpeg" alt="Waste Watchers"></img>
