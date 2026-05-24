@@ -43,6 +43,22 @@ const Coding = props => (
         </div>
 
         <div className="coding1">
+            <h3>ODC Games</h3>
+            <a href="https://github.com/JoshuaWuebbolt/ODC_Games" target="_blank" rel="noopener noreferrer">
+                <img src="assets/ODC_Games.png" alt="ODC Games"></img>
+            </a>
+            <p>
+                ODC Games is an <b>interactive educational web platform</b> designed to teach members of the <b>Open Design Colaboratory (ODC)</b> at UTM how to safely and effectively use the equipment available in the makerspace. The ODC is a design hub that provides access to various fabrication tools and machines.
+                <br></br>
+                <br></br>
+                The platform features multiple <b>mini-games and interactive challenges</b> that educate users on different pieces of equipment including sewing machines, 3D printers, Cricut cutting machines, and xTool laser cutters. Each game teaches essential skills through engaging gameplay, covering topics like equipment operation, safety best practices, and proper material handling. The application is built with <b>Next.js</b>, <b>TypeScript</b>, and <b>React</b>, providing a responsive and modern learning experience.
+                <br></br>
+                <br></br>
+                As the <b>Full-Stack Developer</b> and creator, I designed and implemented the entire platform to make makerspace education accessible and engaging. The project demonstrates my ability to create educational technology that combines learning objectives with an intuitive user interface. <a href="https://odc-games-nu.vercel.app/" target="_blank" rel="noopener noreferrer">You can play the games here.</a>
+            </p>
+        </div>
+
+        <div className="coding1">
             <h3>Stock Charity</h3>
             <a href="https://github.com/utmgdsc/StockCharity" target="_blank" rel="noopener noreferrer">
                 <img src="assets/stockCharity.svg" alt="Stock Charity Logo"></img>
@@ -119,22 +135,6 @@ const Coding = props => (
                 a banna peel the website would tell you to first take off any sticker on the fruit and to put it in the recycling and then to place the bannana
                 peel in the compost. Through this website we aimed to reduce the amount of waste that goes to the landfill and to help people understand
                 how to properly dispose of their waste.
-            </p>
-        </div>
-
-        <div className="coding1">
-            <h3>ODC Games</h3>
-            <a href="https://github.com/JoshuaWuebbolt/ODC_Games" target="_blank" rel="noopener noreferrer">
-                <img src="assets/ODC_Games.png" alt="ODC Games"></img>
-            </a>
-            <p>
-                ODC Games is an <b>interactive educational web platform</b> designed to teach members of the <b>Open Design Colaboratory (ODC)</b> at UTM how to safely and effectively use the equipment available in the makerspace. The ODC is a design hub that provides access to various fabrication tools and machines.
-                <br></br>
-                <br></br>
-                The platform features multiple <b>mini-games and interactive challenges</b> that educate users on different pieces of equipment including sewing machines, 3D printers, Cricut cutting machines, and xTool laser cutters. Each game teaches essential skills through engaging gameplay, covering topics like equipment operation, safety best practices, and proper material handling. The application is built with <b>Next.js</b>, <b>TypeScript</b>, and <b>React</b>, providing a responsive and modern learning experience.
-                <br></br>
-                <br></br>
-                As the <b>Full-Stack Developer</b> and creator, I designed and implemented the entire platform to make makerspace education accessible and engaging. The project demonstrates my ability to create educational technology that combines learning objectives with an intuitive user interface. <a href="https://odc-games-nu.vercel.app/" target="_blank" rel="noopener noreferrer">You can play the games here.</a>
             </p>
         </div>
         {/* <div className="coding1">
