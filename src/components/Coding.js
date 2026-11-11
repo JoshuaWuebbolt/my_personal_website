@@ -31,14 +31,14 @@ const Coding = props => (
             </a>
             <p>
                 Vamsi is the <b>first place winner</b> at EmberHacks 2025. It is a learning assistant for professors and teachers. Students
-                download a vs-code extension with has an AI assistant which gives coding advice and encouragement while sending information
+                download a vs-code extension which has an AI assistant which gives coding advice and encouragement while sending information
                 about where students’ strengths and weaknesses are. This information is then sent to the professor and summarized. 
                 <br></br>
                 <br></br>
-                An example of how a professors could use Vamsi would be to give an in-class assignment to reverse a linked list for 
+                An example of how a professor could use Vamsi would be to give an in-class assignment to reverse a linked list for 
                 students to do in class. Vamsi would then inform the professor of where students struggled. Maybe some students 
                 struggle with syntax while others do not understand the difference between a regular list and a linked list. This information
-                can then be used to improve the professors lesson plan and address the holes in students’ knowledge. 
+                can then be used to improve the professor's lesson plan and address the holes in students’ knowledge. 
             </p>
         </div>
 
@@ -48,7 +48,7 @@ const Coding = props => (
                 <img src="assets/ODC_Games.png" alt="ODC Games"></img>
             </a>
             <p>
-                ODC Games is an <b>interactive educational web platform</b> designed to teach members of the <b>Open Design Colaboratory (ODC)</b> at UTM how to safely and effectively use the equipment available in the makerspace. The ODC is a design hub that provides access to various fabrication tools and machines.
+                ODC Games is an <b>interactive educational web platform</b> designed to teach members of the <b>Open Design Collaboratory (ODC)</b> at UTM how to safely and effectively use the equipment available in the makerspace. The ODC is a design hub that provides access to various fabrication tools and machines.
                 <br></br>
                 <br></br>
                 The platform features multiple <b>mini-games and interactive challenges</b> that educate users on different pieces of equipment including sewing machines, 3D printers, Cricut cutting machines, and xTool laser cutters. Each game teaches essential skills through engaging gameplay, covering topics like equipment operation, safety best practices, and proper material handling. The application is built with <b>Next.js</b>, <b>TypeScript</b>, and <b>React</b>, providing a responsive and modern learning experience.
@@ -70,7 +70,7 @@ const Coding = props => (
                 <br></br>
                 <br></br>
                 My contribution to this project was as a <b>full stack developer</b>. I used <b>React</b>, <b>Tailwind</b> and <b>TypeScript</b> to build up the front end. Building the user account and NavBar for the website.
-                The backend was built with <b>Django</b>, <b>the REST Framework</b>, <b>SQLite</b> and <b>Axios</b>. My contributions where <b>developing APIs</b> for donations and users. 
+                The backend was built with <b>Django</b>, <b>the REST Framework</b>, <b>SQLite</b> and <b>Axios</b>. My contributions were <b>developing APIs</b> for donations and users. 
                 I created functionality that allowed for donations to be created and saved to a <b>SQLite database</b>. 
                 
             </p>
@@ -88,7 +88,7 @@ const Coding = props => (
                 can connect to multiple clients and stream at a maximum speed of 20MB/s. The server side
                 can request songs in the server's library to download or stream. A circular buffer is
                 used to maximize space and speed efficiency. Although made for music files, any file type
-                can transfered between the server and the client.
+                can be transferred between the server and the client.
             </p>
         </div>
         <div className="coding1">
@@ -98,8 +98,8 @@ const Coding = props => (
                 <img src="assets/The_Great_Adventure.png" alt="The Great Adventure Screenshot"></img>
             </a>
             <p>
-                Working as a group is a necessary skill for developers. While developing this dungen crawler game in Java, I acted as
-                the scrum master and lead programmer. Through various scrum meetings where we discussed which feature to impliment, who would 
+                Working as a group is a necessary skill for developers. While developing this dungeon crawler game in Java, I acted as
+                the scrum master and lead programmer. Through various scrum meetings where we discussed which feature to implement, who would 
                 program them, estimate for how long the feature would take to program, and how to test the feature. We were able to create a fully
                 functional game with features such as accessibility options for the visually impaired and those hard of hearing, as well as game play
                 features such as a shop, inventory, a minimap, and a save/load feature.
@@ -131,8 +131,8 @@ const Coding = props => (
             </a>
             <p>
                 This was a project I made with a friend for a hackathon. The goal was to create a program that would help people reduce their waste
-                by itendifying their waste and providing information on where it should go (recycling, compost, garbage). For example if you were throwing out
-                a banna peel the website would tell you to first take off any sticker on the fruit and to put it in the recycling and then to place the bannana
+                by identifying their waste and providing information on where it should go (recycling, compost, garbage). For example if you were throwing out
+                a banana peel the website would tell you to first take off any sticker on the fruit and to put it in the recycling and then to place the banana
                 peel in the compost. Through this website we aimed to reduce the amount of waste that goes to the landfill and to help people understand
                 how to properly dispose of their waste.
             </p>

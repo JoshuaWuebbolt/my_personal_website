@@ -15,7 +15,7 @@ const Blog = (props) => (
     <ul className="blog-list">
       <Link to="/blog/WhyILoveCS"> 
         <div className ="blogpost-area">
-          <span className="date">July 12st, 2024</span>
+          <span className="date">July 12th, 2024</span>
           <h1 className="title">Why I love Programming</h1>
           <span className="length"><i>Length: ~3min</i></span>
           <br></br>

@@ -29,9 +29,9 @@ const Urbanism = props => (
             <p> 
                 Urbanism is a passion of mine so in 2023 I co-founded <b>UTM Urbanism</b> a university club at UofT with over 400 members!
                 <br />
-                We are active in our local municipality and have been able to make a difference. Through advocasy we pushed Mississauga City Council to add an express bus that will run along a major transit corridor to the UTM Campus.
+                We are active in our local municipality and have been able to make a difference. Through advocacy we pushed Mississauga City Council to add an express bus that will run along a major transit corridor to the UTM Campus.
                 <br />
-                We have also been able to make talk directly to now previous <b>Mississauga mayor Joe Hornick</b>, as well as two word councilers Alvin Tedjo and Dipika Damerla. Through talking to members of our local government we push for more walkable livable cities, improved public transportation, and more dence and afordable housing.  
+                We have also been able to talk directly to now previous <b>Mississauga mayor Joe Hornick</b>, as well as two ward councillors Alvin Tedjo and Dipika Damerla. Through talking to members of our local government we push for more walkable livable cities, improved public transportation, and more dense and affordable housing.  
             </p>
 
 
