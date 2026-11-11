@@ -1,51 +1,33 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import "../styles/FunFacts.css"
 
-const FunFacts = props => {
-    const scrollTextRef = useRef(null);
+const facts = [
+    "I held a world record for 2 weeks",
+    "I can make an Ethernet cable from scratch; the longest one I made was 60 metres (about 200ft)",
+    "I have completed The Legend of Zelda: Ocarina of Time",
+    "I absolutely hate Kingdom Hearts",
+    "I can hold my breath for 2 minutes 46 seconds",
+    "I am minoring in Game Studies",
+    "EmberHacks was the first Hackathon I ever won",
+];
 
-    useEffect(() => {
-        const scrollElement = scrollTextRef.current;
-        if (!scrollElement) return;
+// The list is rendered twice and the track scrolls up by exactly half its
+// height, so the second copy lands where the first started: a seamless loop.
+const FunFacts = props => (
+    <div className="FunFacts-section" id="FunFacts-section">
+        <h1>Fun Facts</h1>
+        <span>Fun facts about me!</span>
 
-        const scrollContent = scrollElement.innerHTML;
-        scrollElement.innerHTML = scrollContent + scrollContent;
-
-        let scrollPosition = 0;
-        const originalHeight = scrollElement.scrollHeight / 2;
-
-        const interval = setInterval(() => {
-            scrollPosition += 1;
-            scrollElement.parentElement.scrollLeft = scrollPosition;
-
-            if (scrollPosition >= originalHeight) {
-                scrollPosition = 0;
-                scrollElement.parentElement.scrollLeft = 0;
-            }
-        }, 30);
-
-        return () => clearInterval(interval);
-    }, []);
-
-    return (
-        <div className="FunFacts-section" id="FunFacts-section">
-            <h1>Fun Facts</h1>
-            <span>Fun facts about me!</span>
-
-            <div id="scroll-container">
-                <div id="scroll-text" ref={scrollTextRef}>
-                    I held a world record for 2 weeks<br></br><br></br>
-                    I can make an Ethernet cable from scratch; the longest one I made was 60 metres (about 200ft)<br></br><br></br>
-                    I have completed The Legend of Zelda: Ocarina of Time<br></br><br></br>
-                    I absolutely hate Kingdom Hearts<br></br><br></br>
-                    I can hold my breath for 2 minutes 46 seconds<br></br><br></br>
-                    I have never flown on a plane<br></br><br></br>
-                    EmberHacks was the first Hackathon I ever won<br></br><br></br>
-                </div>
-                
+        <div id="scroll-container">
+            <div id="scroll-text">
+                {[0, 1].map(copy => (
+                    <ul key={copy} aria-hidden={copy === 1}>
+                        {facts.map(fact => <li key={fact}>{fact}</li>)}
+                    </ul>
+                ))}
             </div>
         </div>
-    );
-};
+    </div>
+);
 
 export default FunFacts;

@@ -65,42 +65,34 @@ to {
 }
 
 #scroll-text {
-  height: 100%;
   text-align: center;
-  
-
-  
-  /* animation properties */
-  -moz-transform: translateY(100%);
-  -webkit-transform: translateY(100%);
-  transform: translateY(100%);
-  
-  -moz-animation: my-animation 35s linear infinite;
-  -webkit-animation: my-animation 35s linear infinite;
-  animation: my-animation 35s linear infinite;
+  animation: fun-facts-scroll 35s linear infinite;
 }
 
-/* for Firefox */
-@-moz-keyframes my-animation {
-  from { -moz-transform: translateY(100%); }
-  to { -moz-transform: translateY(-100%); }
+#scroll-container:hover #scroll-text {
+  animation-play-state: paused;
 }
 
-/* for Chrome */
-@-webkit-keyframes my-animation {
-  from { -webkit-transform: translateY(100%); }
-  to { -webkit-transform: translateY(-100%); }
+#scroll-text ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-@keyframes my-animation {
-  from {
-    -moz-transform: translateY(100%);
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
+#scroll-text li {
+  padding: 1rem;
+}
+
+@keyframes fun-facts-scroll {
+  from { transform: translateY(0); }
+  to { transform: translateY(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #scroll-container {
+    overflow-y: auto;
   }
-  to {
-    -moz-transform: translateY(-100%);
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
+  #scroll-text {
+    animation: none;
   }
 }
